@@ -108,15 +108,15 @@ body {
 	font-family: 'HelveticaNeue Thin';
 	src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
-
+/* 
 @media screen and (max-width: 350px) {
 	#nav_deconnexion{
-		/*display: none;*/
+		display: none;
 	}
 	#nav_menu_bar{
-		/*display: block;*/
+		display: block;
 	}
-}
+} */
 
 @media screen and (max-width: 650px) {
 	#bienvenue p{
@@ -124,12 +124,12 @@ body {
 	}
 
 }
-
+/*
 @media screen and (min-width: 350px) {
 	#nav_menu_bar{
-		/*display: none;*/
+		display: none;
 	}
-}
+}*/
 
 .nav_bar_horizon {
 	list-style-type: none;
