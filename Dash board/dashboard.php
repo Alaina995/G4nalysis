@@ -10,7 +10,8 @@
 
 	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.html'); ?>
         
-        <section class="features ">
+        
+	<section class="features ">
                 <figure>
                     <img src="images_projet/case_temper.png" alt="Tester ton Température">
                     <figcaption id="températe">Températe</figcaption>
