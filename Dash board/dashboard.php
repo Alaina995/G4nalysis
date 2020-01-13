@@ -8,64 +8,7 @@
 
     <body>
 
-    	<ul class="nav_bar">
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img src="home-icon-png-round-7.png" />
-	    				Accueil
-	    			</div>
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="start-button-icon-png-16.png" alt="Profile picture" />
-	    				Démarer un test
-	    			</div>
-	    		</a>
-    		</li>
-    		<li class="active">
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="Experiment_Results-512.png" alt="Profile picture" />
-	    				Tests
-	    			</div>
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="87578.png" alt="Profile picture" />
-	    				Statistiques
-	    			</div>
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="profile-picture-icon-0.png" alt="Profile picture" />
-	    				Profil
-	    			</div>
-	    		</a>
-    		</li>
-    		<li class="bottom_buttons">
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="profile-picture-icon-0.png" alt="Profile picture" />
-	    				Paramètres
-	    			</div>
-	    		</a>
-    		</li>
-    		<li class="bottom_buttons">
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="profile-picture-icon-0.png" alt="Profile picture" />
-	    				Changer la langue
-	    			</div>
-	    		</a>
-    		</li>
-        </ul>
+	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.html'); ?>
         
         <section class="features ">
                 <figure>
