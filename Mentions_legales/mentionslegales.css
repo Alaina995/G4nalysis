@@ -1,0 +1,35 @@
+@font-face
+{
+     font-family: 'HelveticaNeue';
+     src: url('../HelveticaNeue Thin.ttf') format('truetype');
+}
+
+body { background-color: #EAEAEA; }
+
+h1 {
+     font-family:"HelveticaNeue";
+}
+h2 { color: black;
+     margin-left: 40px;
+     font-size: 20px;
+     font-family:"HelveticaNeue";}
+
+h2 { color: black;
+     margin-left: 30px;
+     font-size: 18px;
+     font-family:"HelveticaNeue";}
+
+h3 { color: black;
+     margin-left: 30px;
+     font-size: 18px;
+     font-family:"HelveticaNeue";}
+
+h4 { color: black;
+     margin-left: 30px;
+     font-size: 18px;
+     font-family:"HelveticaNeue";}          
+
+p  { color: black;
+     margin-left: 20px;
+     font-size: 15px;
+     font-family:"HelveticaNeue";} 

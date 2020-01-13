@@ -1,0 +1,52 @@
+@font-face{
+	font-family: 'HelveticaNeueThin';
+	src:url('HelveticaNeue Thin.ttf') format('truetype');
+}
+
+form {
+	font-family: HelveticaNeueThin;
+  	margin: 0 auto;
+  	width: 400px;
+  	padding: 1em;
+  	border: 2px solid black;
+  	border-radius: 1em;
+}
+
+form input{
+	font-family: HelveticaNeueThin;
+}
+
+#Suppcompt{
+	padding-left: 1px: 
+}
+
+#changpho{
+	display:block;
+	border-color: black;
+	width:190px;
+	line-height:10px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	background-color: grey;
+}
+
+#buttonEn{
+	display:block;
+	border-color: grey;
+	width:150px;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	background-color: #0066CC;
+
+}
+
+#wave{
+	position:fixed;
+	width: auto;
+	height: 100%;
+	top:0px;
+	left:0px;
+	}
