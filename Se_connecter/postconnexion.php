@@ -33,7 +33,7 @@ if (isset($_POST['pseudo']) && isset($_POST['passe'])) {
     <?php
     if (isset($authOK)) {
         echo "<p>Bienvenue, " . escape($login) . "</p>";
-        echo '<a href="Dash board/dashboard.php">Poursuivre vers la page d\'accueil</a>';
+        echo '<a href="G4nalysis/Dash board/dashboard.php">Poursuivre vers la page d\'accueil</a>';
     }
     else { ?>
         <p>Impossible de poursuivre la connexion : Utilisateur non reconnu</p>
