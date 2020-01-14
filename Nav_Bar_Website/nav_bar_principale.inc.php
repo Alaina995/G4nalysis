@@ -5,7 +5,7 @@
         <a <?php if ($currentPage === 'Home') { echo 'href="#"'; } 
         else { echo 'href="/G4nalysis/Dash board/dashboard.php"'; } ?>>
             <div class="ligne">
-                <img src="\G4nalysis\Nav_Bar_Website\Nav_bar_images\home-icon-png-round-7.png" />
+                <img src="/Nav_bar_images/home-icon-png-round-7.png" />
                 Accueil
             </div>
         </a>
