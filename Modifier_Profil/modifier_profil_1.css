@@ -82,13 +82,14 @@ a{
 
 
 .alignement {
+    display : inline ;
+}
+
+
 #wave{
-	position:fixed;
-	width: auto;
-	height: 100%;
-	top:0px;
-	left:0px;
-	}    height : 100%;
+    position : fixed; 
+    width : auto ;
+    height : 100%;
     top : 0px;
     left : 0px;
 }
@@ -105,7 +106,19 @@ a{
 }
 
 
+
 @media screen and (max-width: 900px) {
+    #wave {
+        display: none;
+    }
+
+
+.resteco{
+    font-size : 15px; 
+}
+
+.texte1 {
+
     font-size : 15px;
     text-align : left ; 
     padding-left : 15px;
