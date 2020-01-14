@@ -34,15 +34,48 @@ body
 	*/
 }
 
+.click_box{
+	display: none;
+	
+	position : absolute;
+	
+	text-decoration: none;
+
+	margin: 0px;
+	color : black;
+
+	padding-top: 68px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+	width: 150px;
+	height: 190px;
+
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.features figure:hover .click_box{
+	display: block;
+
+	transition-duration:1s;
+}
+
+.features figure:hover p{
+	display: none;
+}
+.features figure:hover .features figure img{
+	display: none;
+}
 
 .features figure figcaption{
 	position:absolute;
-    color:rgb(185, 22, 76);
-	font: italic smaller sans-serif;
+    color:black;
+	font-family: Helvetica;
 	font-size: 22px;
 }
 
-#températe{
+#temperature{
 	margin-top: 15px;
 	margin-left: 50px;
 }
@@ -54,11 +87,11 @@ body
 	margin-top: 15px;
 	margin-left: 75px;
 }
-#visual{
+#vue{
 	margin-top: 15px;
 	margin-left: 80px;
 }
-#étendu{
+#étendue{
 	margin-top: 15px;
 	margin-left: 45px;
 }
@@ -66,35 +99,37 @@ body
 
 .features figure p{
 	position:absolute;
-    color: rgb(65, 145, 20);
-	font: italic smaller sans-serif;
-	font-size: 25px;
+    color: #ff9100;
+	font-family: Helvetica, sans-serif;
+	font-size: 100px;
 }
 
-#températe1{
-	margin-top: 132px;
-	margin-left: 75px;
+#temperature1{
+	margin-top: 95px;
+	margin-left: 45px;
 }
 #audition1{
-	margin-top: 132px;
-	margin-left: 33px;
+	margin-top: 95px;
+	margin-left: 38px;
 }
 #coeur1{
-	margin-top: 132px;
-	margin-left: 55px;
+	margin-top: 95px;
+	margin-left: 30px;
 }
-#visual1{
-	margin-top: 132px;
-	margin-left: 65px;
+#vue1{
+	margin-top: 95px;
+	margin-left: 28px;
 }
-#étendu1{
-	margin-top: 132px;
-	margin-left: 75px;
+#étendue1{
+	margin-top: 95px;
+	margin-left: 45px;
 }
 .features figure img{
     width: 200px;  
-	box-shadow: rgb(128, 128, 128) 0 0 40px;
+	box-shadow: rgb(128, 128, 128) 0 0 20px;
 }
-/*
-barre css
-*/
+
+.unite{
+	font-size: 25px;
+	color: black;
+}
