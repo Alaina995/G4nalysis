@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="dashboard.css" />
-        <title>Nav bar verticale</title>
+        <title>Accueil</title>
     </head>
 
     <body>
@@ -59,19 +59,9 @@
                         </figure>
         </section>
 
-    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.html'); ?>
-<!-- 
-    	<ul class="nav_bar_horizon">
-
-
-            <li><button id="nav_deconnexion" href="Page 2.html">Se déconnecter</button></li>
-            <li><img  id="nav_menu_bar" src="Menu_Bar-512.png"/></li>
-            <li id="bienvenue"><p>Bienvenue, Marc</p></li>
-    		<li id="logo_li"><img  id="nav_logo" src="G4analysis.png"/></li>
-    		
-        </ul>
-         -->
-
+		<?php $title = 'Accueil'; ?>
+		<?php $currentPage = 'Home'; ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 
     </body>
 </html>

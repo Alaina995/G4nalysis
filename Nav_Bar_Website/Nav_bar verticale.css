@@ -89,9 +89,7 @@ li.active {
 	src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
-body {
-	background-color: gray;
-}
+
 
 .linear-gradient {
   background: linear-gradient(#c9c9c9, transparent);

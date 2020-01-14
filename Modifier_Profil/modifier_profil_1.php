@@ -45,5 +45,8 @@
 				    <button id="buttonEn">Enregistrer</button>
 			</form>
 		</div>
+		<?php $title = 'Profil'; ?>
+		<?php $currentPage = 'profil'; ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 	</body>
 </html>
