@@ -8,7 +8,7 @@
 
     <body>
 
-<!-- wsh la streetzer -->
+<!-- wsh la eetzer -->
         
         
 	<section class="features ">
