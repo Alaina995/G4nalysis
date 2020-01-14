@@ -37,7 +37,7 @@ if (isset($_POST['pseudo']) && isset($_POST['passe'])) {
     }
     else { ?>
         <p>Impossible de poursuivre la connexion : Utilisateur non reconnu</p>
-        <p><a href="se_connecter.php">Nouvel essai</p>
+        <p><a href="index.php">Nouvel essai</p>
     <?php } ?>
 </body>
 </html>
