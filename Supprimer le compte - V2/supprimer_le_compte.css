@@ -1,0 +1,63 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+
+@font-face{
+    font-family: 'HelveticaNeueMed';
+    src:url('HelveticaNeueMed.ttf') format('truetype');
+    font-family: 'HelveticaNeueThin';
+    src:url('HelveticaNeue Thin.ttf') format('truetype');
+}
+
+#buttonAn{
+    display:block;
+    width:150px;
+    line-height:40px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    background-color: #FF9900;
+    float:left;
+    margin:70px;
+    border-color: grey;
+
+}
+
+
+#buttonSupp{
+    float: right;
+    margin:70px;
+    display:block;
+    width:150px;
+    line-height:40px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    background-color: #1560BD;
+    border-color: grey;
+}
+
+
+
+div{
+    font-family:  "HelveticaNeue Thin", Sans-Serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: HelveticaNeueMed, sans-serif;
+}
+
+form input{
+    font-family: HelveticaNeueThin;
+}
+
+h1{
+    color: #1560BD;
+    width: 90%;
+    font-size: 5em;
+}
+
+p{
+    font-size: 2em;
+}

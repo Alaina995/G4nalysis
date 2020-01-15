@@ -7,7 +7,11 @@
 
 	<body>
 
+<<<<<<< HEAD
 		<img  id="wave" src="Waves.png"/>
+=======
+		<!-- <img  id="wave" src="Waves.png"/> -->
+>>>>>>> 1829eb4301c3a21883bfc427bb3b936c561bfa46
 
         <ul class="nav_bar">
             <li>
@@ -119,7 +123,7 @@
 
 	        <a href="modifier_mon_adresse.html" class="a_chan"> Changer mon adresse </a><br />
 
-	        <a href="supprimer_le_compte.html" class="a_sup"> Supprimer le compte? </a><br /><br />
+	        <a href="../Supprimer le compte - V2/supprimer_le_compte.php" class="a_sup"> Supprimer le compte? </a><br /><br />
 
 
 	        <div class = "alignement">
@@ -129,8 +133,15 @@
 	        <p>   </p>
     	</nav>	
 
+<<<<<<< HEAD
     <?php $title = 'modifier profil'; ?>
 	<?php $currentPage = 'modifier profil'; ?>
+=======
+    	<?php $title = 'Profil'; ?>
+		<?php $currentPage = 'profil'; ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
+
+>>>>>>> 1829eb4301c3a21883bfc427bb3b936c561bfa46
 
 
 	</body>

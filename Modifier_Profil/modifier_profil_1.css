@@ -1,8 +1,17 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+
 @font-face{
     font-family: 'HelveticaNeue';
     src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
+
+body
+{
+    background-image: url('IMG_7019 - copie 5.jpg');
+    background-position:  center;
+    background-size: 100%;
+}
 
 nav {
      
@@ -17,6 +26,8 @@ nav {
     width: 400px;
     margin: auto;
     margin-top: 100px;
+    background-color: white;
+    box-shadow: rgb(128, 128, 128) 0 0 20px;
 }
 
 input{
@@ -26,14 +37,6 @@ input{
     
 }
 
-.linear-gradient {
-  background: linear-gradient(gray, transparent);
-  height: 70px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left:0px;
-}   
 
 .chang{
 	   
