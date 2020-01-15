@@ -1,0 +1,168 @@
+@font-face
+{
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeue Thin.ttf') format('truetype');
+}
+
+body {
+    font-family: 'HelveticaNeue';
+    background-image :  url("imagefondd.jpg");
+    background-size :110%;
+}
+
+
+#barre {
+    width : 40%;
+    height : 40%;
+    margin-left : 570px; 
+
+}
+
+#logo {
+    width : auto;
+    height : 60px;
+    float : right ; 
+    
+
+}
+
+.linear-gradient {
+  background: linear-gradient(gray, transparent);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.titre{
+    
+    font-size : 40px; ;
+    text-align : center ; 
+    font-weight : lighter;
+    margin-bottom : 15px; 
+    font-weight : bold; 
+}
+nav {
+     
+    background-color : white; 
+    font-size : 20px ; 
+    color:black;
+    border-style : solid ; 
+    text-align : center;
+    border-radius : 3px 3px 15px 15px;
+    border-color : black; 
+    border-width : thin ;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input{
+    font-size : 20px;
+    line-height: 40px;
+    margin : 4px; 
+    
+}
+
+.changerAdresse {
+
+    font-size : 15px;
+    text-decoration : underline;
+    text-align : left; 
+    padding-left : 10px; 
+    margin-top : 2px; 
+    
+}
+.modifier {
+   
+    font-size : 20px;
+    border-style : solid;
+    border-color: #1276BA;
+    border-radius: 5px;
+    background-color : #1276BA;
+    color : white ; 
+    padding-top : 5px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    margin-left : 280px; 
+    margin-bottom : 20px; 
+    border-width : thin; 
+
+}
+.modifier:hover{
+    background-color : #FF9300;
+    border-color: #FF9300;
+    transition-duration: 500ms; 
+}
+
+.utilisateur { 
+
+    font-size: 17px;
+    background-color : #C0CBC8;
+    border-style: solid;
+    border-radius: 5px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px; }
+
+.gestionnaire { 
+
+    font-size: 17px;
+    background-color : #C0CBC8;
+    border-style: solid;
+    border-radius: 5px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px; }  
+
+.administrateur { 
+
+    font-size: 17px;
+    background-color : #C0CBC8;
+    border-style: solid;
+    border-radius: 5px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px; }      
+
+.utilisateur:hover {
+    
+    background-color : #9DAAA7;
+    border-color: #9DAAA7;
+    transition-duration: 500ms; }
+
+.gestionnaire:hover {
+    
+    background-color : #9DAAA7;
+    border-color: #9DAAA7;
+    transition-duration: 500ms; }
+
+.administrateur:hover {
+    
+    background-color : #9DAAA7;
+    border-color: #9DAAA7;
+    transition-duration: 500ms; }
+
+.genre {
+    position : left ; 
+}
+
+
+
+@media screen and (max-width: 900px) {
+    #wave {
+        display: none;
+    }
+
+}
+
+
+

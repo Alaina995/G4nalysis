@@ -15,7 +15,7 @@ span p { font-size: large;
        color: #3C3C3A;
        font-family:"HelveticaNeue";
        font-weight: normal;
-       text-align: center;}
+       text-align: justify;}
 
 span a { text-decoration: none;
          font-weight: bold;
@@ -91,10 +91,8 @@ span a { text-decoration: none;
   font-family: HelveticaNeue;}
 
 nav{width: 100%;
-    margin: 20 auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;}  
+    background-color: transparent;
+    position: sticky;}  
 
 nav ul{ list-style-type: none; }
 
@@ -119,8 +117,7 @@ nav a:hover{ color: orange; }
        box-shadow: 0px 1px 2px #CCC;
        background-color: white;
        position: absolute;
-       width: 100%;
-       z-index: 1000; }
+       width: 100%; }
 
 nav > ul li:hover .sous { display: block; } 
 
@@ -130,6 +127,9 @@ nav > ul li:hover .sous { display: block; }
 
 .sous a{ padding: 5px;
          border-bottom: none; } 
+
+nav ul li ul li { margin: 0px;
+                  padding: 0px; }
 
                           
 
