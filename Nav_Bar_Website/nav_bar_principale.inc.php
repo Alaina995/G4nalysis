@@ -21,7 +21,7 @@
     </li>
     <li <?php if ($currentPage === 'statistiques') {echo 'class="active"';} ?>>
         <a <?php if ($currentPage === 'statistiques') { echo 'href="#"'; } 
-        else { echo 'href="../Dash board/dashboard.php"'; } ?>>
+        else { echo 'href="../Graphic/statistiques.php"'; } ?>>
             <div class="ligne">
                 <img class="link" src="../Nav_Bar_Website/Nav_bar_images/87578.png" alt="Profile picture" />
                 Statistiques

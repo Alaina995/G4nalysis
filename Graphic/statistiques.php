@@ -138,6 +138,10 @@ chart4.render();
 
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
+<?php $title = 'Statistiques'; ?>
+<?php $currentPage = 'statistiques'; ?>
+<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
+
 </body>
 
 </html>
