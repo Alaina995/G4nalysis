@@ -1,3 +1,5 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+
 @font-face{
     font-family: 'HelveticaNeue';
     src: url('HelveticaNeue Thin.ttf') format('truetype');
@@ -16,7 +18,7 @@
     border-width : thin ;
     width: 400px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 input{
@@ -31,8 +33,7 @@ input{
     font-size : 40px; ;
     text-align : center ; 
     font-weight : lighter;
-    margin-left: 10%;
-    margin-top: 20px;   
+    margin-top: 80px;   
 }
 
 #care{
@@ -42,28 +43,8 @@ input{
 }
 
 #barre {
-    width : 70%;
-    height : 2px;
-   
-    
-}
-
-
-#logo {
-    width : auto;
-    height : 60px;
-    float : right ; 
-    
-
-}
-
-.linear-gradient {
-  background: linear-gradient(gray, transparent);
-  height: 70px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left:0px;
+    width : 80%;
+    height : 1.5px;
 }
 
 

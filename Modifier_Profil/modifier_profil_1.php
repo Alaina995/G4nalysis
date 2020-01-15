@@ -41,7 +41,7 @@
             </form>
 
 
-	        <a href="modifier_mon_adresse.html" class="a_chan"> Changer mon adresse </a><br />
+	        <a href="../Modifier_Adresse_2.0/modifier_mon_adresse.php" class="a_chan"> Changer mon adresse </a><br />
 
 	        <a href="../Supprimer le compte - V2/supprimer_le_compte.php" class="a_sup"> Supprimer le compte? </a><br /><br />
 
