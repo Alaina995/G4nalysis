@@ -51,7 +51,7 @@
 
             <a>En cliquant sur S'inscrire, vous acceptez les </a>
 
-            <a id="cond" href="CGA">  conditions generales d'utilisations </a>
+            <a id="cond" href="../CGU/CGU.php">  conditions generales d'utilisations </a>
                 
         </nav>
 
