@@ -46,13 +46,3 @@ if($AfficherFormulaire==1){
     name="nom de l'input" sert à le reconnaitre une fois le bouton submit cliqué, pour le code PHP
      -->
      
-    <form method="post" action="inscription.php">
-        Pseudo (a-z0-9) : <input type="text" name="pseudo">
-         
-        Mot de passe : <input type="password" name="mdp">
-         
-        <input type="submit" value="S'inscrire">
-    </form>
-    <?php
-}
-?>
