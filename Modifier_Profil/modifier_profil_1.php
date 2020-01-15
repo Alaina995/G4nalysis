@@ -7,8 +7,7 @@
 
 	<body>
 
-		<img  id="wave" src="Waves.png"/>
-        <div class="linear-gradient"></div>
+		<!-- <img  id="wave" src="Waves.png"/> -->
 
 
 		<nav>
@@ -56,7 +55,7 @@
 
     	<?php $title = 'Profil'; ?>
 		<?php $currentPage = 'profil'; ?>
-    <?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 
 
 
