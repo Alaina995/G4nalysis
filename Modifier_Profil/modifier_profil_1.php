@@ -43,7 +43,7 @@
 
 	        <a href="modifier_mon_adresse.html" class="a_chan"> Changer mon adresse </a><br />
 
-	        <a href="supprimer_le_compte.html" class="a_sup"> Supprimer le compte? </a><br /><br />
+	        <a href="../Supprimer le compte - V2/supprimer_le_compte.php" class="a_sup"> Supprimer le compte? </a><br /><br />
 
 
 	        <div class = "alignement">
