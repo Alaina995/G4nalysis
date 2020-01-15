@@ -7,11 +7,7 @@
 
 	<body>
 
-<<<<<<< HEAD
-		<img  id="wave" src="Waves.png"/>
-=======
 		<!-- <img  id="wave" src="Waves.png"/> -->
->>>>>>> 1829eb4301c3a21883bfc427bb3b936c561bfa46
 
         <ul class="nav_bar">
             <li>
@@ -121,7 +117,7 @@
             </form>
 
 
-	        <a href="modifier_mon_adresse.html" class="a_chan"> Changer mon adresse </a><br />
+	        <a href="../Modifier_Adresse_2.0/modifier_mon_adresse.php" class="a_chan"> Changer mon adresse </a><br />
 
 	        <a href="../Supprimer le compte - V2/supprimer_le_compte.php" class="a_sup"> Supprimer le compte? </a><br /><br />
 

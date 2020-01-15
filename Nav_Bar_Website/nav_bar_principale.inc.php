@@ -21,7 +21,7 @@
     </li>
     <li <?php if ($currentPage === 'statistiques') {echo 'class="active"';} ?>>
         <a <?php if ($currentPage === 'statistiques') { echo 'href="#"'; } 
-        else { echo 'href="../Dash board/dashboard.php"'; } ?>>
+        else { echo 'href="../Graphic/statistiques.php"'; } ?>>
             <div class="ligne">
                 <img class="link" src="../Nav_Bar_Website/Nav_bar_images/87578.png" alt="Profile picture" />
                 Statistiques
@@ -61,7 +61,7 @@
 <ul class="nav_bar_horizon">
 
 
-    <li><a id="nav_deconnexion" href="Page 2.html">Se déconnecter</a></li>
+    <li><a id="nav_deconnexion" href="../Accueil/vraie_page_accueil.php">Se déconnecter</a></li>
     <li><img  id="nav_menu_bar" src="../Nav_Bar_Website/Nav_bar_images/Menu_Bar-512.png"/></li>
     <li id="bienvenue"><p>Bienvenue, Rafael</p></li>
     <li id="logo_li"><img  id="nav_logo" src="../Nav_Bar_Website/Nav_bar_images/G4analysis.png"/></li>

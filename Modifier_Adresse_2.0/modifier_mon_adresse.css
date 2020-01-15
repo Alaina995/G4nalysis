@@ -1,0 +1,131 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeue Thin.ttf') format('truetype');
+}
+
+
+.cadre {
+     
+    font-family :  HelveticaNeue; 
+    font-size : 20px ; 
+    color:black;
+    border-style : solid ; 
+    text-align : center;
+    border-radius : 3px 3px 15px 15px;
+    border-color : black; 
+    border-width : thin ;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input{
+    font-size : 20px;
+    line-height: 40px;
+    margin : 4px; 
+    
+}
+
+.titre{
+    font-family : HelveticaNeue; 
+    font-size : 40px; ;
+    text-align : center ; 
+    font-weight : lighter;
+    margin-top: 80px;   
+}
+
+#care{
+    width : 40%;
+    height : auto;
+
+}
+
+#barre {
+    width : 80%;
+    height : 1.5px;
+}
+
+
+.button1 {
+    font-size : 20px;
+    border-style : solid;
+    border-color: black;
+    background-color : orange;
+    color : white ; 
+    padding-top : 5px;
+    padding-bottom : 5px;
+    padding-left : 20px;
+    padding-right : 20px; 
+    border-width : thin;
+    text-align: center;
+     
+
+}
+
+.button1:hover{background-color :rgb(251, 131, 0)}
+
+.button2 {
+   
+    font-size : 20px;
+    border-style : solid;
+    border-color: black;
+    background-color : #1276BA;
+    color : white ; 
+    padding-top : 5px;
+    padding-bottom : 5px;
+    padding-left : 20px;
+    padding-right : 20px;
+    margin-left : 100px; 
+    margin-bottom : 20px; 
+    border-width : thin;
+    text-align: center;
+     
+
+}
+
+.button2:hover{background-color :rgb(31, 31, 100)}
+
+
+.alignement {
+    display : inline ;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    background-color: white;
+    bottom:0px;
+    left: 0px;
+    list-style-type: none;
+}
+
+.footer li{
+    float: left;
+    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;
+}
+
+
+.footer ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer a{
+    width: 100%;
+    background-color: #D3D3D3;
+    display: block ;
+    text-decoration: none;
+    color: black;
+    padding:15px;
+}
+
+.footer a:hover{
+    color: white;
+}
+

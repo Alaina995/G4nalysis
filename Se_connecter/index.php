@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="se_connecter.css" />
-        <title> se connecter </title>
+        <title> Se connecter </title>
     </head>
 <body>
         <form action="postconnexion.php" method="post">
@@ -37,8 +37,9 @@
                 <input type="submit" class = "connexion" value="Se connecter">
             </div>
                 
-
-            <button class = "inscrip"> S'inscrire maintenant </button>
+            <a id = "inscrip" href="../Inscription/Inscription.php"> 
+                    S'inscrire maintenant      
+            </a>
         </nav>
 
     

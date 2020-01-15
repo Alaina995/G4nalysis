@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url('../HelveticaNeueMed.ttf') format('truetype');
+}
+
 body {
     background-image :  url("imagefondd.jpg");
     background-size :110%;
