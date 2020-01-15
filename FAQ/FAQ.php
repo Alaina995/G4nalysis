@@ -13,10 +13,10 @@
     <ul>
         <li class="deroulant"> <a href="#"> Vous n'avez pas encore de boitier 4care ?</a>
             <ul class="sous">
-                <li><span> <p><a href="#question1">Quels sont les différents fonctionnalités que permet de faire le boitier ?</a> </p>
+                <li><span> <p><a href="#question1">Question 1</a> </p>
                        <form action="" id="question1">
                           <fieldset>
-                             <p>Grâce au boitier, vous pouvez faire depuis chez vous les premières analyses médicales, par expemple mesurer votre tension ou mesurer votre température corporelle</p>
+                             <p>Réponse à la question 1</p>
                              <a href="#fermer">fermer</a>
                           </fieldset>
                         </form>

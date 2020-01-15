@@ -5,11 +5,6 @@
 		<link rel="stylesheet" href="modifier_mon_adresse.css"/>
 	</head>
 	<body>
-    	
-    	<div class="linear-gradient"></div>
-        <img  id="logo" src="G4analysis.png"/>
-            
-        
         <p class = "titre"> Modifier mon adresse</p>
 
         <nav class= "cadre">
@@ -27,11 +22,13 @@
             </form>
 
             <div class = "alignement">
-                <button class = "button1">annuler</button>
+                <button class = "button1">Annuler</button>
 
                 <button class = "button2">Enregistrer</button>
             </div>
 		</nav>
+
+
 
 		<footer>
 			<div class="footer">
@@ -41,6 +38,10 @@
 					<li><a href="#"> Nous contacter</a></li>
 			</div>
 		</footer>
+		
+		<?php $title = 'Profil'; ?>
+		<?php $currentPage = 'profil'; ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 	</body>
 </html>
 
