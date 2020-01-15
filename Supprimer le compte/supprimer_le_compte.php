@@ -1,23 +1,13 @@
 <html>
 	<head>
 		<title>Supprimer le compte</title>
-		<meta charset="uft-8">
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="supprimer_le_compte.css"/>
 	</head>
+
 	<body>
 
-		<div class="linear-gradient"></div>
-
-		<nav>
-				<ul>
-					<li><a href="#"> Mentions legales</a></li>
-					<li><a href="#"> Qui sommes-nous?</a></li>
-					<li><a href="#"> Questions frequentes</a></li>
-					<li><a href="#"> Nous contacter</a></li>
-				</ul>
-		</nav>
-		
-    	<ul class="nav_bar">
+		<ul class="nav_bar">
     		<li>
     			<a href="Page 2.html">
 	    			<div class="ligne">
@@ -88,34 +78,38 @@
     		
         </ul>
 
-		<hr>
-
+        <br />
+        <br />
+          
 		<div id="Supprimer_compte" align="center">
-
-			<br /><br />
-			<br /><br />
-			<br /><br />
-			<br /><br />
 
 			<h1>Voulez-vous vraiment supprimer votre compte?</h1><br /><br />
 
-			<p>Cette action est irreversible, et toutes les donnees non telechargees seront supprimees.</p><br /><br />
+			<p>Cette action est irréversible, et toutes les données non téléchargées seront supprimées.</p><br />
 
 			 <label>
-			    <input type="checkbox" id="taste_1" name="taste_cherry" style="font-size:smaller ;"> Je comprends que mes donnees seront supprimees apres avoir clique sur le bouton 'Supprimer mon compte', et ne seront ainsi plus disponibles
-			</label><br />  <br />  <br /> 
+			    <input type="checkbox" id="taste_1" name="taste_cherry" style="font-size:smaller ;"> Je comprends que mes données seront supprimées après avoir cliqué sur le bouton 'Supprimer mon compte', et ne seront ainsi plus disponibles
+			</label><br /><br /><br />
+
+		</div>
+
+        <div class = "alignement">
+                <li><a href="modifier_profil_1.html" class = "button1">Annuler</button></a>
+                <li><a href="compte_sup.html" class = "button2">Enregistrer</button></a>
+        </div>
+
+		<footer>
+			<div class="footer">
+					<li><a href="Mentions_legales.html"> Mentions légales</a></li>
+					<li><a href="qui_sommes_nous.html"> Qui sommes-nous?</a></li>
+					<li><a href="FAQ.html"> Questions fréquentes</a></li>
+					<li><a href="nous_contacter.html"> Nous contacter</a></li>
+			</div>
+		</footer>
 
 
-			
-			<button id="buttonAn">Annuler</button>
-			<button id="buttonSupp">Supprimer mon compte</button>
-
-
-				<br /><br />
-				<br /><br />
-				<br /><br />
-				<br /><br />
-
+	<?php $title = 'Supprimer compte'; ?>
+	<?php $currentPage = 'Supprimer compte'; ?>
 
 	</body>
 </html>
