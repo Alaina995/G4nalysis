@@ -69,6 +69,7 @@ input{
 .button2 {
    
     font-size : 20px;
+    text-decoration:none;
     border-style : solid;
     border-color: black;
     background-color : #1276BA;

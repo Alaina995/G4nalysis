@@ -22,7 +22,9 @@
             </form>
 
             <div class = "alignement">
-                <button class = "button1">Annuler</button>
+				<a href = "../Modifier_Profil/modifier_profil_1.php"
+				<button class = "button1">Annuler</button>
+				</a>
 
                 <button class = "button2">Enregistrer</button>
             </div>
