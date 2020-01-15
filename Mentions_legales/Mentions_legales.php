@@ -18,9 +18,6 @@
     	<h4>CNIL</h4>
     	<p>Conformément aux dispositions de la loi 78-17 du 6 janvier 1978 modifiée, l’utilisateur dispose d’un droit d’accès, de modification et de suppression des informations collectées par notre site internet. Pour exercer ce droit, il reviendra à l’utilisateur d’envoyer un message via la rubrique "Nous contacter".</p>
 
-    <?php $title = 'Mentions légales'; ?>
-    <?php $currentPage = 'Mentions légales'; ?>
-
 
     </body>
 </html>
