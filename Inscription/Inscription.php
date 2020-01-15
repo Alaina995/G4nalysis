@@ -1,3 +1,7 @@
+<?php 
+	include("commun/ouvrir.php");
+?>
+
 <html>
     <head>
         <meta charset="utf-8" />
@@ -66,3 +70,7 @@
     
     </body>
 </html>
+
+<?php 
+	include("commun/fermer.php");
+?>
