@@ -58,14 +58,11 @@
             <br /><br />
             
 
-<<<<<<< HEAD
             <a> En cliquant sur S'inscrire, vous acceptez </a>
             <a href="CGU.html"> les conditions générales d'utilisations </a><br /><br />
                     
-=======
             <a id="cond" href="../CGU/CGU.php">  conditions generales d'utilisations </a>
                 
->>>>>>> 34a2a3eb5f7e27b65e0455a76767716681517fcf
         </nav>
 
     
