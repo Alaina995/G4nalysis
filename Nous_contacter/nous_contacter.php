@@ -7,8 +7,9 @@
 
 	<body>
 
-	<?php $title = 'Nous contacter'; ?>
-    <?php $currentPage = 'Nous contacter'; ?>
+
+
+
 
 	</body>
 </html>
