@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family: 'HelveticaNeue Thin';
-	src: url('../HelveticaNeueThin.ttf') format('truetype');
+	src: url('HelveticaNeueThin.ttf') format('truetype');
 }
 
 @media screen and (max-width: 550px) {
@@ -169,7 +169,7 @@ span a { text-decoration: none;
          text-align: center; }
 
 span p { font-size: large;
-       justify-content: : center;
+       justify-content: center;
        padding-left: 20px;
        padding-right: 20px;
        color: white;
