@@ -5,14 +5,14 @@
         <title> Inscription </title>
         <form action="postinscription.php" method="post"></form>
     </head>
-<body>
+    <body>
 
         <img  id="wave" src="Waves.png"/>
         <div class="linear-gradient"></div>
         <img  id="logo" src="G4analysis.png"/>
+            
         
-    
-        <p class = "titre">  Inscription</p>
+        <p class = "titre"> Inscription</p>
 
         <nav>
 
@@ -21,38 +21,51 @@
 
             <form >
                 <p>
-                	<label> </label><input type="text" name="nom" placeholder = "Nom " size ="30"/>
-                	<label> </label><input type="text" name="prenom" placeholder = "Prenom " size ="30"/>
+                    <label> </label><input type="text" name="pseudo" placeholder = "Nom " size ="30"/>
+                    <label> </label><input type="text" name="pseudo" placeholder = "Prenom " size ="30"/>
 
+                    <br />
 
-                	<label> </label><input type="email" name="mail" placeholder = "Adresse email " size ="30"/>
-                	<label> </label><input type="email" name="mail2" placeholder = "Confirmation adresse email " size ="30"/>
+                    <label> </label><input type="email" name="pseudo" placeholder = "Adresse email " size ="30"/>
+                    <label> </label><input type="email" name="pseudo" placeholder = "Confirmation adresse email " size ="30"/>
 
+                    <br />
 
-                    <label> </label><input type="password" name="password" placeholder = "Confirmation Mot de passe " size ="30"/>
-                    <label> </label> <input type ="password" name ="password2" placeholder = "Mot de passe "size ="30"/>
-                    <label> </label><input type="text" name="codepost" placeholder = "Code postal " size ="30"/>
+                    <label> </label><input type="password" name="pseudo" placeholder = "Confirmation Mot de passe " size ="30"/>
+                    <label> </label> <input type ="password" name ="motdepasse" placeholder = "Mot de passe "size ="30"/>
+                    <label> </label><input type="text" name="pseudo" placeholder = "Ville" size ="30"/>
 
+                    <br />
 
-                    <label> </label><input type="text" name="ville" placeholder = "Ville " size ="30"/>
-                    <label> </label><input type="text" name="rue" placeholder = "Rue " size ="30"/>
-                    <label> </label><input type="text" name="numrue" placeholder = "Numero de rue " size ="30"/>
+                    <label> </label><input type="text" name="pseudo" placeholder = "Code postal " size ="30"/>
+                    <label> </label><input type="text" name="pseudo" placeholder = "Rue " size ="30"/>
+                    <label> </label><input type="text" name="pseudo" placeholder = "Numéro de rue " size ="30"/>
 
                 </p>
             </form>
 
 
-            <p class = "mdp" > Mon adresse n'apparait pas</p>
+            <a href="../Nous_contacter.php" class = "mdp" > Mon adresse n'apparait pas</a>
+
+            <br />
+            <br />
 
 
             <div class = "alignement">
-                <input type="submit" class = "connexion" value = "S'inscrire"> <br />
+                <a href="../Dash board.php" class = "connexion">S'inscrire</a> <!-- Page de connection compte -->
             </div>
 
-            <a>En cliquant sur S'inscrire, vous acceptez les </a>
+            <br /><br />
+            
 
-            <a id="cond" href="CGA">  conditions generales d'utilisations </a>
+<<<<<<< HEAD
+            <a> En cliquant sur S'inscrire, vous acceptez </a>
+            <a href="CGU.html"> les conditions générales d'utilisations </a><br /><br />
+                    
+=======
+            <a id="cond" href="../CGU/CGU.php">  conditions generales d'utilisations </a>
                 
+>>>>>>> 34a2a3eb5f7e27b65e0455a76767716681517fcf
         </nav>
 
     
