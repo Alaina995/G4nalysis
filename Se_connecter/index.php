@@ -37,8 +37,8 @@
                 <input type="submit" class = "connexion" value="Se connecter">
             </div>
                 
-            <a href="../Inscription/Inscription.php"> 
-            <button class = "inscrip"> S'inscrire maintenant </button>
+            <a id = "inscrip" href="../Inscription/Inscription.php"> 
+                    S'inscrire maintenant      
             </a>
         </nav>
 
