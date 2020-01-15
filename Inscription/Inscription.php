@@ -45,23 +45,21 @@
             </form>
 
 
-            <a href="../Nous_contacter.php" class = "mdp" > Mon adresse n'apparait pas</a>
+            <a href="../Nous_contacter/nous_contacter.php" class = "mdp" > Mon adresse n'apparait pas</a>
 
             <br />
             <br />
 
 
             <div class = "alignement">
-                <a href="../Dash board.php" class = "connexion">S'inscrire</a> <!-- Page de connection compte -->
+                <a href="../Dash board/dashboard.php" class = "connexion">S'inscrire</a> <!-- Page de connection compte -->
             </div>
 
             <br /><br />
             
 
             <a> En cliquant sur S'inscrire, vous acceptez </a>
-            <a href="CGU.html"> les conditions générales d'utilisations </a><br /><br />
-                    
-            <a id="cond" href="../CGU/CGU.php">  conditions generales d'utilisations </a>
+            <a href="../CGU/CGU.php"> les conditions générales d'utilisations </a><br /><br />
                 
         </nav>
 

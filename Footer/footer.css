@@ -1,17 +1,14 @@
 
 .footer{
-    width: 100%;
-    position: fixed;
+    width: 98.5%;
     bottom:0px;
-    left: 0px;
+    right: 0px;
     background-color: white;
-    bottom:0px;
-    left: 0px;
     list-style-type: none;
 }
 
 .footer li{
-    float: left;
+    float: right;
     width: 25%;/*100% divisé par le nombre d'éléments de menu*/
     text-align: center;
 }
