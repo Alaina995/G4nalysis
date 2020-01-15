@@ -7,11 +7,7 @@
 
 	<body>
 
-<<<<<<< HEAD
-		<img  id="wave" src="Waves.png"/>
-=======
 		<!-- <img  id="wave" src="Waves.png"/> -->
->>>>>>> 1829eb4301c3a21883bfc427bb3b936c561bfa46
 
         <ul class="nav_bar">
             <li>
