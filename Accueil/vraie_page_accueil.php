@@ -12,7 +12,7 @@
 
     	<ul class="nav_bar_horizon">
             <li><img  id="nav_menu_bar" src="Menu_Bar-512.png"/></li>
-    		<li><a id="nav_connection" href="../Se_connecter/se_connecter.html">Se connecter</a></li>
+    		<li><a id="nav_connection" href="../Se_connecter/index.php">Se connecter</a></li>
             <li><a id="nav_inscription" href="../Inscription/Inscription.html">S'inscrire</a></li>
             <li><a id="nav_invite" href="Page 2.html">Invité</a></li>
     		
