@@ -50,7 +50,7 @@
 }
 
 .nav_bar_horizon li {
-	float: right;
+	float:right;
 	position: relative;
 	display: inline-block;
 	padding: 10px 10px;
@@ -211,7 +211,7 @@ button:hover{
     border-color: #FF9300;
     transition-duration: 500ms;        
 
-
+}
 
 
 
@@ -231,4 +231,3 @@ footer a { text-decoration: none;
 footer a:hover { color: orange;
                  transition-duration: 500ms; }           
 
-footer a:active { text-decoration: none; } */         
