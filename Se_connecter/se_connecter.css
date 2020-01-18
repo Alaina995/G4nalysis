@@ -97,11 +97,8 @@ input{
     border-color: black;
     background-color : #1276BA;
     color : white ; 
-    padding-top : 5px;
-    padding-bottom : 5px;
-    padding-left : 10px;
-    padding-right : 10px;
-    margin-left : 110px; 
+    padding : 0px 20px 0px 20px;
+    margin-left : 35px; 
     margin-bottom : 20px; 
     border-width : thin;
      
@@ -117,11 +114,13 @@ input{
     color :white;
     background :#FF9300; 
     border-width : thin ; 
+    display: inline-block;
+    text-decoration: none;
 
     width: 100%;
-    height: 40px;
     margin : 0px;
-    border-radius : 15px 15px 15px 15px;
+    padding : 8px 0px 8px 0px;
+    border-radius : 0px 0px 15px 15px;
     
 }
 #inscrip:hover{background-color :orange}
