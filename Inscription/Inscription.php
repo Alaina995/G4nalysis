@@ -66,7 +66,7 @@
             <a> En cliquant sur S'inscrire, vous acceptez </a>
             <a href="../CGU/CGU.php"> les conditions générales d'utilisations </a><br /><br />
 
-            <img  id="barre" src ="Barre_separation.png"/>
+            <img  id="barre" src ="Barre_separation.png"/><br />
 
             <a id="vous">Vous avez déjà un compte?</a>
             <a id="connect" href="../Se_connecter/index.php"> Connectez-vous</a><br /><br />
