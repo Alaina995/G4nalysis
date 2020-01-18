@@ -11,7 +11,8 @@
         <div class="linear-gradient"></div>
         <img  id="logo" src="G4analysis.png"/>
         
-    
+        <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
+        </a>
         <p class = "titre">  Connexion</p>
 
         <nav>
