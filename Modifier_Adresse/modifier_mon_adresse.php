@@ -5,7 +5,6 @@
 		<link rel="stylesheet" href="modifier_mon_adresse.css"/>
 	</head>
 	<body>
-        <p class = "titre"> Modifier mon adresse</p>
 
         <nav class= "cadre">
         	<img  id="care" src="4Care.png"/>
@@ -22,28 +21,24 @@
             </form>
 
             <div class = "alignement">
-				<a href = "../Modifier_Profil/modifier_profil_1.php"
-				<button class = "button1">Annuler</button>
-				</a>
+				<a href = "../Modifier_Profil/modifier_profil_1.php" 
+				  class = "button1">Annuler</a>
 
-                <button class = "button2">Enregistrer</button>
+                <a href="../Modifier_Profil/modifier_profil_1.php" class = "button2">Enregistrer</a>
             </div>
+            	<p> </p>
 		</nav>
 
 
 
-		<footer>
-			<div class="footer">
-					<li><a href="#"> Mentions legales</a></li>
-					<li><a href="#"> Qui sommes-nous?</a></li>
-					<li><a href="#"> Questions frequentes</a></li>
-					<li><a href="#"> Nous contacter</a></li>
-			</div>
-		</footer>
-		
-		<?php $title = 'Profil'; ?>
+
+		<?php require('../Footer/footer.php'); ?>
+
+    	<?php $title = 'Profil'; ?>
 		<?php $currentPage = 'profil'; ?>
     	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
+
+
 	</body>
 </html>
 

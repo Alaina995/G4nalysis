@@ -17,7 +17,8 @@
             <li> Test de reconnaissance de tonalité </li>
             <li> Test de réflexe visuel </li>
        </ol>
-      <a href="pageaccueil.html" class="button4"><span>Retour à la page d'accueil</span> </a>       
+      <a href="../Accueil/vraie_page_accueil.php" class="button4">
+        <span>Retour à la page d'accueil</span> </a>       
     </body>
 </html>        
 
