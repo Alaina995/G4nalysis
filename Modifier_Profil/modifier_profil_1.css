@@ -1,4 +1,6 @@
 @import url("../Nav_Bar_Website/Nav_bar verticale.css");
+@import url("../Footer/footer.css");
+
 
 @font-face{
     font-family: 'HelveticaNeue';
@@ -26,6 +28,7 @@ nav {
     width: 400px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 50px;
     background-color: white;
     box-shadow: rgb(128, 128, 128) 0 0 20px;
 }

@@ -18,7 +18,7 @@ function escape($valeur)
  * @return PDO Objet de connexion à la BD
  */
 function getBdd() {
-    return new PDO("mysql:host=localhost;dbname=g4nalysis;charset=utf8",
+    return new PDO("mysql:host=localhost;dbname=g4nalysis2;charset=utf8",
         "g4nalysis_users", "secret", // C'est quoi "secret" ???
         array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 }

@@ -33,6 +33,7 @@ if(isset($_POST['pseudo'],$_POST['mdp'])){//l'utilisateur à cliqué sur "S'insc
     }
 }
 if($AfficherFormulaire==1){
+}
     ?>
     <!-- 
     Les balises <form> sert à dire que c'est un formulaire
@@ -45,4 +46,4 @@ if($AfficherFormulaire==1){
     type="submit" sera un bouton pour valider le formulaire
     name="nom de l'input" sert à le reconnaitre une fois le bouton submit cliqué, pour le code PHP
      -->
-     
+}
