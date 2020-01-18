@@ -15,7 +15,7 @@
         <div class="linear-gradient"></div>
         <img  id="logo" src="G4analysis.png"/>
             
-        
+        <a> Retour à l'accueil 
         <p class = "titre"> Inscription</p>
 
         <nav>
@@ -35,8 +35,8 @@
 
                     <br />
 
-                    <label> </label><input type="password" name="pseudo" placeholder = "Confirmation Mot de passe " size ="30"/>
-                    <label> </label> <input type ="password" name ="motdepasse" placeholder = "Mot de passe "size ="30"/>
+                    <label> </label><input type="password" name="pseudo" placeholder = "Mot de passe" size ="30"/>
+                    <label> </label> <input type ="password" name ="motdepasse" placeholder = "Confirmation Mot de passe "size ="30"/>
                     <label> </label><input type="text" name="pseudo" placeholder = "Ville" size ="30"/>
 
                     <br />
