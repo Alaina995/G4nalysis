@@ -35,7 +35,7 @@
             <div class = "alignement">
                 <input type="checkbox" name="resteco" placeholder = "Rester connecté" size ="12" />
                 <label  class = "resteco" for="scales">Rester connecté</label>
-                <input type="submit" class = "connexion" value="Se connecter">
+                <input type="submit" class = "connexion" value="Se connecter"/>
             </div>
                 
             <a id = "inscrip" href="../Inscription/Inscription.php"> 
