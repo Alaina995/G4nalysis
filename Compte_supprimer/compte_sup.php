@@ -8,9 +8,6 @@
 	<body>
 		<p> Votre compte a bien été supprimé </p>
 
-	<?php $title = 'Compte supprimé'; ?>
-	<?php $currentPage = 'Compte supprimé'; ?>
-
 	</body>
 </html>
 

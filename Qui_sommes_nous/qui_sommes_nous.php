@@ -17,11 +17,7 @@
             <li> Test de reconnaissance de tonalité </li>
             <li> Test de réflexe visuel </li>
        </ol>
-      <a href="pageaccueil.html" class="button4"><span>Retour à la page d'accueil</span> </a>
-
-  <?php $title = 'Qui sommes-nous'; ?>
-  <?php $currentPage = 'Qui sommes-nous'; ?>
-       
+      <a href="pageaccueil.html" class="button4"><span>Retour à la page d'accueil</span> </a>       
     </body>
 </html>        
 

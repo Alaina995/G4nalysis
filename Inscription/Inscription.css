@@ -30,8 +30,23 @@
     width : auto;
     height : 60px;
     float : right ; 
-    
+}
 
+#retouracc{
+    text-decoration: none;
+    text-decoration-color: black;
+    font-size: 20px;
+    top:5px;
+}
+
+#connect{
+    font-size: 15px;
+    text-decoration-color: black: 
+}
+
+#vous{
+    font-size: 15px;
+    text-decoration-color: black: 
 }
 
 .linear-gradient {
@@ -77,8 +92,9 @@ input{
 a{
     text-decoration: none;
 }
-.mdp {
 
+.mdp {
+    text-decoration: none;
     font-size : 15px;
     text-decoration : underline;
     text-align : left ; 

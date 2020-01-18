@@ -8,8 +8,7 @@
     <body>
 		<p> Conditions générales d'utilisations </p>
 
-	<?php $title = 'CGU'; ?>
-    <?php $currentPage = 'CGU'; ?>
+
 
 	</body>
 </html>

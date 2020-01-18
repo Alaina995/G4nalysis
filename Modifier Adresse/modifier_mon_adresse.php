@@ -104,11 +104,6 @@
             <p> </p>
 		</nav>
 
-
-    <?php $title = 'modifier mon adresse'; ?>
-    <?php $currentPage = 'modifier mon adresse'; ?>
-
-
 	</body>
 </html>
 
