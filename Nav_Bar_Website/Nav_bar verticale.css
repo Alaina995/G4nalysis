@@ -9,12 +9,14 @@
   	overflow: auto;
   	top: 52px;
   	left: 0px;
-  	transition-duration: 300ms;
+	transition-duration: 300ms;
+	
 }
 
 .nav_bar:hover {
 	width: 250px;
 	transition-duration: 300ms;
+	box-shadow: black 0 0 8px;
 }
 
 
