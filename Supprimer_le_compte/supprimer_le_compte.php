@@ -3,6 +3,7 @@
 		<title>Supprimer le compte</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="supprimer_le_compte.css"/>
+		<?php session_start();?>
 	</head>
 
 	<body>
@@ -96,16 +97,13 @@
         <div class = "alignement">
                 <li><a href="modifier_profil_1.html" class = "button1">Annuler</button></a>
                 <li><a href="compte_sup.html" class = "button2">Enregistrer</button></a>
-        </div>
+		</div>
+		
+		<?php require('../Footer/footer.php'); ?>
 
-		<footer>
-			<div class="footer">
-					<li><a href="Mentions_legales.html"> Mentions légales</a></li>
-					<li><a href="qui_sommes_nous.html"> Qui sommes-nous?</a></li>
-					<li><a href="FAQ.html"> Questions fréquentes</a></li>
-					<li><a href="nous_contacter.html"> Nous contacter</a></li>
-			</div>
-		</footer>
+    	<?php $title = 'Profil'; ?>
+		<?php $currentPage = 'profil'; ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 
 	</body>
 </html>

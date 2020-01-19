@@ -3,20 +3,22 @@
 		<title>Modifier mon adresse</title>
 		<meta charset="uft-8">
 		<link rel="stylesheet" href="modifier_mon_adresse.css"/>
+		<?php session_start();?>
 	</head>
 	<body>
-
+		
         <nav class= "cadre">
+			<p id="titre">Modifier mon adresse</p>
         	<img  id="care" src="4Care.png"/>
             <img  id="barre" src ="Barre_separation.png"/>
 
             <form >
                 <p>
-                	<label> </label><input type="text" name="pseudo" placeholder = "Ville " size ="30"/><br />
+                	<label> </label><input class="input" type="text" name="pseudo" placeholder = "Ville " size ="30"/><br />
 
-                    <label> </label><input type="text" name="pseudo" placeholder = "Code postal " size ="30"/><br />
-                    <label> </label><input type="text" name="pseudo" placeholder = "Rue " size ="30"/><br />
-                    <label> </label><input type="text" name="pseudo" placeholder = "Numero de rue " size ="30"/><br />
+                    <label> </label><input class="input" type="text" name="pseudo" placeholder = "Code postal " size ="30"/><br />
+                    <label> </label><input class="input" type="text" name="pseudo" placeholder = "Rue " size ="30"/><br />
+                    <label> </label><input class="input" type="text" name="pseudo" placeholder = "Numero de rue " size ="30"/><br />
 				</p>
             </form>
 

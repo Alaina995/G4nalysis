@@ -4,6 +4,23 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="dashboard.css" />
         <title>Accueil</title>
+		<?php
+			session_start();
+
+			require '../Se_connecter/fonctions.php';
+			$bdd = getBdd();
+
+			$login = $_SESSION['mail'];
+			$requete = "SELECT * FROM users WHERE mail=?";
+			$resultat = $bdd->prepare($requete);
+			$resultat->execute(array($login));
+
+			$donnesUser = $resultat->fetch();
+
+			$prenomUser = $donnesUser['prenom'];
+			$_SESSION['donnesUser'] = $donnesUser;
+			$_SESSION['prenomUser'] = $prenomUser;
+		?>
     </head>
 
     <body>

@@ -1,13 +1,20 @@
 @import url("../Nav_Bar_Website/Nav_bar verticale.css");
+@import url("../Footer/footer.css");        
 
 @font-face{
     font-family: 'HelveticaNeue';
     src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
+body
+{
+    background-image: url('../Modifier_Profil/IMG_7019 - copie 5.jpg');
+    background-position:  center;
+    background-size: 100%;
+}
 
 .cadre {
-     
+    background-color: rgb(255, 255, 255);
     font-family :  HelveticaNeue; 
     font-size : 20px ; 
     color:black;
@@ -18,22 +25,24 @@
     border-width : thin ;
     width: 400px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    box-shadow: rgb(128, 128, 128) 0 0 20px;
 }
 
-input{
+.input{
     font-size : 20px;
     line-height: 40px;
     margin : 4px; 
     
 }
 
-.titre{
+#titre{
     font-family : HelveticaNeue; 
     font-size : 40px; ;
     text-align : center ; 
-    font-weight : lighter;
-    margin-top: 80px;   
+    margin-top: 10px;   
+    margin-bottom: 0px;
 }
 
 #care{
@@ -91,42 +100,5 @@ input{
 
 .alignement {
     display : inline ;
-}
-
-.footer{
-    width: 100%;
-    position: fixed;
-    bottom:0px;
-    left: 0px;
-    background-color: white;
-    bottom:0px;
-    left: 0px;
-    list-style-type: none;
-}
-
-.footer li{
-    float: left;
-    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;
-}
-
-
-.footer ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.footer a{
-    width: 100%;
-    background-color: #D3D3D3;
-    display: block ;
-    text-decoration: none;
-    color: black;
-    padding:15px;
-}
-
-.footer a:hover{
-    color: white;
 }
 

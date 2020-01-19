@@ -3,7 +3,7 @@
 <head> 
         <link rel="stylesheet" href="arranger.css" /> 
 
-
+		<?php session_start();?>
 <script class="graphi">
 window.onload = function () {
 
@@ -137,6 +137,8 @@ chart4.render();
     </div>
 
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<?php require('../Footer/footer.php'); ?>
 
 <?php $title = 'Statistiques'; ?>
 <?php $currentPage = 'statistiques'; ?>

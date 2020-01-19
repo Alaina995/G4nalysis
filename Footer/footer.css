@@ -1,3 +1,9 @@
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeue Thin.ttf') format('truetype');
+}
+
+
 
 .footer{
     width: 98.5%;
@@ -27,6 +33,7 @@
     text-decoration: none;
     color: black;
     padding:15px;
+    font-family: HelveticaNeue;
 }
 
 .footer a:hover{
