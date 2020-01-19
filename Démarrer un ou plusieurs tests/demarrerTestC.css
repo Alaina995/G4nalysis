@@ -5,7 +5,8 @@
 
 body {
     background-image :  url("imagefondd.jpg");
-    background-size :110%;
+    background-position:  center;
+    background-size :100%;
 
 }
 

@@ -7,80 +7,6 @@
 	</head>
 
 	<body>
-
-		<ul class="nav_bar">
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img src="home-icon-png-round-7.png" />
-	    				Accueil
-	    			</div>
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="start-button-icon-png-16.png" alt="Profile picture" />
-	    				Démarer un test
-	    			</div>
-	    		</a>
-    		</li>
-    		<li class="active">
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="Experiment_Results-512.png" alt="Profile picture" />
-	    				Tests
-	    			</div>
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="87578.png" alt="Profile picture" />
-	    				Statistiques
-	    			</div>
-	    		</a>
-    		</li>
-    		<li>
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="profile-picture-icon-0.png" alt="Profile picture" />
-	    				Profil
-	    			</div>
-	    		</a>
-    		</li>
-    		<li class="button_parametres" >
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="settings.png" alt="Profile picture" />
-	    				Paramètres
-	    			</div>
-	    		</a>
-    		</li>
-    		<li class="button_langue">
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="language.png" alt="Profile picture" />
-	    				Changer la langue
-	    			</div>
-	    		</a>
-    		</li>
-    	</ul>
-    	
-    	
-
-    	<ul class="nav_bar_horizon">
-
-
-            <li><a id="nav_deconnexion" href="Page 2.html">Se déconnecter</a></li>
-            <li><img  id="nav_menu_bar" src="Menu_Bar-512.png"/></li>
-            <li id="bienvenue"><p>Bienvenue, Rafael</p></li>
-    		<li id="logo_li"><img  id="nav_logo" src="G4analysis.png"/></li>
-    		
-        </ul>
-
-        <br />
-        <br />
           
 		<div id="Supprimer_compte" align="center">
 
@@ -89,7 +15,7 @@
 			<p>Cette action est irréversible, et toutes les données non téléchargées seront supprimées.</p><br />
 
 			 <label>
-			    <input type="checkbox" id="taste_1" name="taste_cherry" style="font-size:smaller ;"> Je comprends que mes données seront supprimées après avoir cliqué sur le bouton 'Supprimer mon compte', et ne seront ainsi plus disponibles
+			    <input class="input" type="checkbox" id="taste_1" name="taste_cherry" style="font-size:smaller ;"> Je comprends que mes données seront supprimées après avoir cliqué sur le bouton 'Supprimer mon compte', et ne seront ainsi plus disponibles
 			</label><br /><br /><br />
 
 		</div>
