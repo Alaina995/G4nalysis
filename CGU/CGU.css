@@ -1,0 +1,51 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+@import url("../Footer/footer.css");
+
+@font-face{
+    font-family: 'HelveticaNeueThin';
+    src: url('HelveticaNeueThin.ttf') format('truetype');
+}
+
+h1{
+	text-align: center;
+    font-family: HelveticaNeueMed;
+    color: #1560BD;
+    font-size: 5em;
+}
+
+p{
+    font-family: HelveticaNeueThin;
+    font-size: 15px;
+    color: black;
+}
+
+h2{
+	font-family: HelveticaNeueMed;
+    color: black;
+    font-size: 30px;
+}
+
+h3{
+	font-family: HelveticaNeueMed;
+    color: black;
+    font-size: 30px;
+}
+
+h4{
+	font-family: HelveticaNeueMed;
+    color: black;
+    font-size:30px ;
+}
+
+h5{
+	font-family: HelveticaNeueMed;
+    color: black;
+    font-size: 30px;
+}
+
+h6{
+	font-family: HelveticaNeueMed;
+    color: black;
+    font-size: 30px;
+}
+

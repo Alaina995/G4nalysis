@@ -1,3 +1,6 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+@import url("../Footer/footer.css");
+
 body { background-image: url("fondquisommesnous.png"); 
        background-size: 100%;
        background-repeat: no-repeat;}

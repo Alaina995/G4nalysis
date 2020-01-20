@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="Inscription.css" />
+        <link rel="stylesheet" href="CGU.css" />
         <title> Inscription </title>
     </head>
 
