@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'HelveticaNeue';
-    src: url('HelveticaNeue Thin.ttf') format('truetype');
+    src: url('../HelveticaNeueThin.ttf') format('truetype');
 }
 
 body {
@@ -12,9 +12,11 @@ body {
     /* width: 98.5%; */
     width: 100%;
     bottom:0px;
-    right: 0px;
+    left: 0px;
     background-color: white;
     list-style-type: none;
+    display: inline;
+    margin: 0px;
 }
 
 .footer li{
