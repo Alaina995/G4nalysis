@@ -12,10 +12,10 @@
     </li>
     <li <?php if ($currentPage === 'tests') {echo 'class="active"';} ?>>
         <a <?php if ($currentPage === 'tests') { echo 'href="#"'; } 
-        else { echo 'href="../Dash board/dashboard.php"'; } ?>>
+        else { echo 'href="../Mes_resultats/mes_resultats.php"'; } ?>>
             <div class="ligne">
                 <img class="link" src="../Nav_Bar_Website/Nav_bar_images/Experiment_Results-512.png" alt="Profile picture" />
-                Tests
+                Mes résultats
             </div>
         </a>
     </li>
