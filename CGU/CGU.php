@@ -6,8 +6,16 @@
     </head>
 
     <body>
-		<p> Conditions générales d'utilisations </p>
+		<h1> Conditions générales d'utilisations </h1>
 
+
+
+
+		<?php require('../Footer/footer.php'); ?>
+
+    	<?php $title = 'Profil'; ?>
+		<?php $currentPage = 'profil'; ?>
+    	<?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 
 
 	</body>

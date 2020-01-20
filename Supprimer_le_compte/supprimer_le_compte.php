@@ -21,8 +21,8 @@
 		</div>
 
         <div class = "alignement">
-                <li><a href="modifier_profil_1.html" class = "button1">Annuler</button></a>
-                <li><a href="compte_sup.html" class = "button2">Enregistrer</button></a>
+                <li><a href="../Modifier_Profil/modifier_profil_1.php"  class = "button1">Annuler</button></a>
+                <li><a href="../Compte_supprimer/compte_sup.php" class = "button2">Enregistrer</button></a>
 		</div>
 		
 		<?php require('../Footer/footer.php'); ?>

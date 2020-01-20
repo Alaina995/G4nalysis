@@ -74,8 +74,10 @@
     </ul>    
 </nav>      
 
-  <?php $title = 'FAQ'; ?>
-  <?php $currentPage = 'FAQ'; ?>
+
+      <?php $title = 'Profil'; ?>
+    <?php $currentPage = 'profil'; ?>
+      <?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 
     </body>
 </html>

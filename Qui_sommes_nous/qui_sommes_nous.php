@@ -18,7 +18,15 @@
             <li> Test de réflexe visuel </li>
        </ol>
       <a href="../Accueil/vraie_page_accueil.php" class="button4">
-        <span>Retour à la page d'accueil</span> </a>       
+        <span>Retour à la page d'accueil</span> </a>    
+
+        
+    <?php require('../Footer/footer.php'); ?>
+
+      <?php $title = 'Profil'; ?>
+    <?php $currentPage = 'profil'; ?>
+      <?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
+   
     </body>
 </html>        
 

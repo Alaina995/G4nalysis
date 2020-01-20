@@ -6,7 +6,7 @@
 	</head>
 
 	<body>
-		<p> Votre compte a bien été supprimé </p>
+		<h1> Votre compte a bien été supprimé </h1>
 
 	</body>
 </html>
