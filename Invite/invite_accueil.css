@@ -6,6 +6,9 @@
      src: url('../HelveticaNeue Thin.ttf') format('truetype');
 }
 
+a.{
+	text-decoration: none;
+}
 .button2 {
    
     font-size : 20px;
@@ -17,7 +20,7 @@
     padding-bottom : 5px;
     padding-left : 20px;
     padding-right : 20px;
-    margin-left : 100px; 
+    margin-left : 500px; 
     margin-bottom : 20px; 
     border-width : thin;
     text-align: center;
