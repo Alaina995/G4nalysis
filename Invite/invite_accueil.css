@@ -6,6 +6,10 @@
      src: url('../HelveticaNeue Thin.ttf') format('truetype');
 }
 
+.alignement{
+  list-style-type: none;
+}
+
 body
 {
     background-image: url('IMG_7024 - copie 3.jpg');
