@@ -129,7 +129,8 @@
 						Ceci est le test d'étendue auditive.
 					</a>
 				</figure>
-        </section>
+		</section>
+		
 
 		<?php $title = 'Accueil'; ?>
 		<?php $currentPage = 'Home'; ?>
