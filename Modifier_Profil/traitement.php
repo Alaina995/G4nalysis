@@ -60,7 +60,7 @@
 // Mot de passe
     if(!empty($oldPassword))
     {
-      if($oldPassword == $donnesUser['password'])
+      if($oldPassword == md5($donnesUser['password']))
       {
         if(!empty($password1) && !empty($password2) && $password1 == $password2)
         {
@@ -109,10 +109,19 @@
           die("Connection failed: " . $conn->connect_error);
       }
 
-      $sql = "UPDATE users SET nom = '" .$newNom. "', prenom = '" .$newPrenom. "', mail = '" .$newMail. "', password = '" .$newPassword. "' WHERE id = '" .$donnesUser['id']."'";
+      $sql = "UPDATE users SET nom = '" .$newNom. "', prenom = '" .$newPrenom. "', mail = '" .$newMail. "', password = md5('" .$newPassword. "') WHERE id = '" .$donnesUser['id']."'";
 
       if ($conn->query($sql) === TRUE) {
           echo "Record updated successfully";
+
+          // Destruction des variables de sessions inutiles
+          
+          unset($_SESSION['nomErreur']);
+          unset($_SESSION['prenomErreur']);
+          unset($_SESSION['passwordErreur2']);
+          unset($_SESSION['passwordErreur1']);
+          unset($_SESSION['passwordErreur2']);
+          unset( $_SESSION['emailErreur']);
 
           // Mise à jour de la variable de session donnesUser
 
