@@ -1,3 +1,33 @@
+@import url("../Footer/footer.css");
+
+@font-face
+{
+     font-family: 'HelveticaNeue';
+     src: url('../HelveticaNeue Thin.ttf') format('truetype');
+}
+
+.button2 {
+   
+    font-size : 20px;
+    border-style : solid;
+    border-color: black;
+    background-color : #1276BA;
+    color : white ; 
+    padding-top : 5px;
+    padding-bottom : 5px;
+    padding-left : 20px;
+    padding-right : 20px;
+    margin-left : 100px; 
+    margin-bottom : 20px; 
+    border-width : thin;
+    text-align: center;
+     
+
+}
+
+.button2:hover{background-color :rgb(31, 31, 100)}
+
+
 .nav_bar {
 	list-style-type: none;
 	margin: 0;
@@ -80,7 +110,7 @@
 	padding: 3px 15px 0px 30px;
 }
 
-li.active {
+li.nav_bar{
 	background-color: #168ad9;
 	color: white;
 }

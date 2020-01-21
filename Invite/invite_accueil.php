@@ -26,14 +26,6 @@
 	    			</div>
 	    		</a>
     		</li>
-    		<li class="active">
-    			<a href="Page 2.html">
-	    			<div class="ligne">
-	    				<img class="link" src="../Invite/invite_dashboard.php" alt="Profile picture" />
-	    				Tests
-	    			</div>
-	    		</a>
-    		</li>
     		
     		<li class="button_parametres" >
     			<a href="Page 2.html">
@@ -78,7 +70,7 @@
 		</div>
 
         <div class = "alignement">
-                <li><a href="compte_sup.html" class = "button2">Démarrer une mesure</button></a>
+           	<li><a href="../Invite/invite_dashboard.php" class = "button2">Démarrer les mesures</button></a>
         </div>
 
 
