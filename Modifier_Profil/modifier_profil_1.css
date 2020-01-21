@@ -7,6 +7,18 @@
     src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
+#care{
+    width : 40%;
+    height : auto;
+
+}
+
+#barre {
+    width : 70%;
+    height : 2px;
+   
+    
+}
 
 body
 {

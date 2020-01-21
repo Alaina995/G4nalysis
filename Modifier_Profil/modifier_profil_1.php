@@ -9,12 +9,8 @@
 	<body>
 
 		<nav>
-			<h1>Modifier mon profil</h1>
-
-			<img src="icone_user.png" alt="icone_user"><br />
-            <div class = "changpho">
-                <a href="#" class = "chang">Changer de photo</a>
-            </div>  
+            <img  id="care" src="4Care.png"/>
+            <img  id="barre" src ="Barre_separation.png"/>
 
             <form >
 			    <p>

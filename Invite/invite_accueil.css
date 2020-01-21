@@ -6,6 +6,14 @@
      src: url('../HelveticaNeue Thin.ttf') format('truetype');
 }
 
+body
+{
+    background-image: url('IMG_7024 - copie 3.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
 a.{
 	text-decoration: none;
 }

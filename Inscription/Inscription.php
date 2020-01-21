@@ -160,7 +160,7 @@
                     </div>
 
                 </p>
-                <input type="submit" nom ="formsend" value="S'inscrire" class = "connexion" id="formsend">
+                <input type="submit" nom ="formsend" value="S'inscrire" class = "connexion" id="formsend" href="../Dash board/dashboard.php">
 
             </form>
 
@@ -170,9 +170,9 @@
             <br />
 
 
-            <!-- <div class = "alignement"> -->
-                <!-- <div class = "alignement"><a href="../Dash board/dashboard.php" >S'inscrire</a>--> <!-- Page de connection compte -->
-            <!-- </div> --> 
+            <!--<div class = "alignement">
+                <div class = "alignement"><a href="../Dash board/dashboard.php" >S'inscrire</a>-->
+
 
             <br /><br />
             
