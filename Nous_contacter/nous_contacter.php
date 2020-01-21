@@ -4,43 +4,25 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="nous_contacter.css"/>
 		<?php session_start();?>
-		<script type="text/javascript" src="nous_contacter.js"></script>
 	</head>
-
 	<body>
-        <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"> << Retour à l'accueil
-        </a>
-		<section id="hire">
-	    
-	    		<h1>Contactez Nous</h1>
-	    
-	    <form method="post" action="traitement_formulaire.php">
-		      <div class="field name-box">
-		      		<label for="name">Nom</label>
-			        <input type="text" id="nom"
-			        name="nom" placeholder="Quel est votre nom?"/ required>
+		<form >
+			    <p>
 
-			        <span class="ss-icon">check</span>
-		      </div>
+				<form id="contact" method="post" action="traitement_formulaire.php">
 
-		      <div class="field email-box">
-			        <label for="email">Email</label>
-			        <input type="email" id="email" name="email" placeholder="votre_email@email.com"/ required>
-			        <span class="ss-icon">check</span>
-		      </div>
+					<label>Nom</label><input class="input" type="text" id="nom"
+			        name="nom" placeholder="Quel est votre nom?"/ required size ="30"/><br />
 
-		      <div class="field msg-box">
-			        <label for="message">Message</label>
-			        <textarea id="message" name="message" rows="4" placeholder="Ecrivez votre message ici..."/ required></textarea>
+                	<label>Email</label><input class="input" type="email"id="email" name="email" placeholder="votre_email@email.com"/ required size ="30"/>
+               
+                    <br />
 
-			        <span class="ss-icon">check</span>
-		      </div>
+                    <label>Message</label><textarea id="message" name="message" rows="4" placeholder="Ecrivez votre message ici..."/ required required size ="30"></textarea><br />
 
-		      <input class="button" type="submit" id ="envoi" name="envoi" value="Envoyer votre message" />
-	  </form>
-	</section>
+                </p>
+                <input class="button" type="submit" id ="envoi" name="envoi" value="Envoyer votre message" />
+            </form>
 
 	</body>
-
-	<?php require('../Footer/footer.php'); ?>
 </html>

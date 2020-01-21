@@ -2,7 +2,7 @@
 	// on vérifie que le formulaire a bien été envoyé
 	if (isset($_POST['envoi']))
 	{
-				$send_to = "nad70@icloud.com";
+				$send_to = "guiraud.alaina@outlook.fr";
 			}
 
 
