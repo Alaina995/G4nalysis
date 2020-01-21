@@ -68,19 +68,16 @@
 					<label>Confirmer le nouveau mot de passe </label><input id="password2" class="input" type="password" name="password2" placeholder = "Confirmation Mot de passe" size ="30" onfocus="verificationPassword()"><br />
 					<p class="textErreur"><?php echo $_SESSION['passwordErreur2']?></p>
 
-					<input type="submit" id="submit" class="connexion" value="Enregistrer">
-                </p>
-            </form>
+					
 			<script src="traitement.js"></script>
 
 	        <a href="../Modifier_Adresse/modifier_mon_adresse.php" class="a_chan"> Changer mon adresse </a><br />
 
 	        <a href="../Supprimer_le_compte/supprimer_le_compte.php" class="a_sup"> Supprimer le compte? </a><br /><br />
 
-
-	        <div class = "alignement">
-   				<a href="../Dash board/dashboard.php" class= "connexion">Enregistrer</a>
-	        </div>
+			<input type="submit" id="submit" class="connexion" value="Enregistrer">
+                </p>
+            </form>
 
 	        <p>   </p>
     	</nav>	
