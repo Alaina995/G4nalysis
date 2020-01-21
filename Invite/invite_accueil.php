@@ -72,7 +72,7 @@
 		<br /><br /><br />
 
         <div class = "alignement" style="text-align: center">
-           	<li><a  style="text-decoration:none" href="../Invite/invite_dashboard.php" class = "button2">Démarrer les mesures</button></a>
+           	<li><a  style="text-decoration:none; list-style-type: none;" href="../Invite/invite_dashboard.php" class = "button2">Démarrer les mesures</button></a>
         </div>
 
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
