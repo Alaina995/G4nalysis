@@ -71,8 +71,8 @@
 
 		<br /><br /><br />
 
-        <div class = "alignement">
-           	<li><a style="text-align: center" href="../Invite/invite_dashboard.php" class = "button2">Démarrer les mesures</button></a>
+        <div class = "alignement" style="text-align: center">
+           	<li><a  style="text-decoration:none" href="../Invite/invite_dashboard.php" class = "button2">Démarrer les mesures</button></a>
         </div>
 
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
