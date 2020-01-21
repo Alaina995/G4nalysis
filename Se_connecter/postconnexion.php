@@ -17,7 +17,20 @@ if (isset($_POST['pseudo']) && isset($_POST['passe'])) {
         $_SESSION['mail'] = $login;
         $_SESSION['password'] = $mdp;
         // cette variable indique que l'authentification a réussi
-        $authOK = true;
+        $authOK = "normalUser";
+    }
+    else {
+        $requete = "SELECT * FROM admins WHERE mail=? AND password=?";
+        $resultat = $bdd->prepare($requete);
+        $resultat->execute(array($login, $mdp));
+    if ($resultat->rowCount() == 1) {
+        // l'utilisateur existe dans la table
+        // on ajoute ses infos en tant que variables de session
+        $_SESSION['mail'] = $login;
+        $_SESSION['password'] = $mdp;
+        // cette variable indique que l'authentification a réussi
+        $authOK = "admin";
+    }
     }
 }
 ?>
@@ -32,9 +45,16 @@ if (isset($_POST['pseudo']) && isset($_POST['passe'])) {
     <h1>Résultat de l'authentification</h1>
     <?php
     if (isset($authOK)) {
-        echo "<p>Bienvenue, " . escape($login) . "</p>";
-        echo '<a href="../Dash board/dashboard.php">Poursuivre vers la page d\'accueil</a>';
-        header('location: ../Dash board/dashboard.php ');
+        if ($authOK == "normalUser"){
+            echo "<p>Bienvenue, " . escape($login) . "</p>";
+            echo '<a href="../Dash board/dashboard.php">Poursuivre vers la page d\'accueil</a>';
+            header('location: ../Dash board/dashboard.php ');
+        }
+        else if($authOK == "admin"){
+            echo "<p>Bienvenue, aministrateur " . escape($login) . "</p>";
+            echo '<a href="../Administrateur/mes_resultats.php">Poursuivre vers la page d\'accueil</a>';
+            header('location: ../Administrateur/mes_resultats.php ');
+        }
     }
     else { ?>
         <p>Impossible de poursuivre la connexion : Utilisateur non reconnu</p>
