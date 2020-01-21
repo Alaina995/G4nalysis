@@ -7,7 +7,6 @@
     src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
-<<<<<<< HEAD
 #care{
     width : 40%;
     height : auto;
@@ -16,13 +15,16 @@
 
 #barre {
     width : 70%;
-    height : 2px;
-   
+    height : 1px;
+}
     
-=======
 .textErreur{
     color:red;
->>>>>>> 977be886be0132cd8ca4886795d09e503da0193c
+}
+
+#titre{
+    font-size: 2em;
+    margin-bottom: 0px;
 }
 
 body

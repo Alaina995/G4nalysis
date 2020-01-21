@@ -36,6 +36,7 @@
 	<body>
 
 		<nav>
+		    <p id="titre">Modifier mon profil</p>
             <img  id="care" src="4Care.png"/>
             <img  id="barre" src ="Barre_separation.png"/>
 
