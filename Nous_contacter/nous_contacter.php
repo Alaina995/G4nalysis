@@ -6,10 +6,10 @@
 		<?php session_start();?>
 	</head>
 	<body>
-			<h1>Nous contacter</h1>
 			<img  id="wave" src="Waves.png"/>
-        	<div class="linear-gradient"></div>
         	<img  id="logo" src="G4analysis.png"/>
+			<h1>Nous contacter</h1>
+
 
 			    <fieldset>
 				<form id="contact" method="post" action="traitement_formulaire.php">
