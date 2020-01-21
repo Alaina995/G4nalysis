@@ -2,7 +2,7 @@
 
 
 $mysqli = mysqli_connect('localhost', 'root', '', 'g4nalysis');
-if(!$mysqli) {
+if(!$mysqli){
     echo "Connexion non établie.";
     exit;
 
@@ -151,7 +151,7 @@ if($AfficherFormulaire==1){
     }
 
 
-    if (empty($_POST['nom'])n||empty($_POST['prenom'])||empty($_POST['email'])||empty($_POST['emailConfirmation'])||empty($_POST['motdepasse'])||empty($_POST['motdepasseConfirmation'])||empty($_POST['Ville'])||empty($_POST['codepo'])||empty($_POST['rue'])||empty($_POST['nrue'])||){
+    if (empty($_POST['nom'])||empty($_POST['prenom'])||empty($_POST['email'])||empty($_POST['emailConfirmation'])||empty($_POST['motdepasse'])||empty($_POST['motdepasseConfirmation'])||empty($_POST['Ville'])||empty($_POST['codepo'])||empty($_POST['rue'])||empty($_POST['nrue'])){
 
         header("Location:index.php");
     }

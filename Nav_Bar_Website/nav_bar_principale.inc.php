@@ -40,7 +40,7 @@
     <li class="button_parametres" >
         <a >
             <div class="ligne">
-                <img class="link" src="../Nav_Bar_Website/Nav_bar_images/profile-picture-icon-0.png" alt="Profile picture" />
+                <img class="link" src="../Nav_Bar_Website/Nav_bar_images/settings.png" alt="Profile picture" />
                 Paramètres
             </div>
         </a>

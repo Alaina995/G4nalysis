@@ -1,5 +1,5 @@
 <?php 
-	include("commun/ouvrir.php");
+	include("TEST__formulaire-inscription-php/commun/ouvrir.php");
 ?>
 
 <?php
@@ -30,7 +30,7 @@
 
             <form method="POST" action="postinscription.php">    
                 <p>
-                    <label>Nom</label><input type="text" name="nom" id="id" placeholder = "Nom " size ="30"/value="<?php if(isset($_COOKIE['nom'])){ echo $_COOKIE['nom'];} ?>">
+                    <label>Nom</label><input type="text" name="nom" id="id" placeholder = "Nom " size ="30" value="<?php if(isset($_COOKIE['nom'])){ echo $_COOKIE['nom'];} ?>">
                     <div class="erreur">
                         <?php
 
@@ -42,7 +42,7 @@
                     </div>
 
 
-                    <label>Prénom</label><input type="text" name="prenom" id="prenom" placeholder = "Prenom " size ="30"/ value="<?php if(isset($_COOKIE['prenom'])){ echo $_COOKIE['prenom'];} ?>">
+                    <label>Prénom</label><input type="text" name="prenom" id="prenom" placeholder = "Prenom " size ="30" value="<?php if(isset($_COOKIE['prenom'])){ echo $_COOKIE['prenom'];} ?>">
 
                     <div class="erreur">
                         <?php
@@ -56,7 +56,7 @@
 
                     <br />
 
-                    <label>e-mail</label><input type="email" name="email" placeholder = "Adresse email " size ="30"/ id="email1" value="<?php if(isset($_COOKIE['email'])){ echo $_COOKIE['email'];} ?>">
+                    <label>e-mail</label><input type="email" name="email" placeholder = "Adresse email " size ="30" id="email1" value="<?php if(isset($_COOKIE['email'])){ echo $_COOKIE['email'];} ?>">
 
                     <div class="erreur">
                     <?php
@@ -68,7 +68,7 @@
                     ?>
                     </div>
 
-                    <label>Confirmation e-mail </label><input type="email"  placeholder = "Confirmation adresse email " size ="30"/ id="email2" name="emailConfirmation" value="<?php if(isset($_COOKIE['emailConfirmation'])){ echo $_COOKIE['emailConfirmation'];} ?>"> 
+                    <label>Confirmation e-mail </label><input type="email"  placeholder = "Confirmation adresse email " size ="30" id="email2" name="emailConfirmation" value="<?php if(isset($_COOKIE['emailConfirmation'])){ echo $_COOKIE['emailConfirmation'];} ?>"> 
 
                     <div class="erreur">
                     <?php
@@ -82,7 +82,7 @@
 
                     <br />
 
-                    <label>Mot de passe</label><input type="password" name="motdepasse" placeholder = "Mot de passe" size ="30"/ id="motdepasse" value="<?php if(isset($_COOKIE['motdepasse'])){ echo $_COOKIE['motdepasse'];} ?>">>
+                    <label>Mot de passe</label><input type="password" name="motdepasse" placeholder = "Mot de passe" size ="30" id="motdepasse" value="<?php if(isset($_COOKIE['motdepasse'])){ echo $_COOKIE['motdepasse'];} ?>">>
 
                     <div class="erreur">
                     <?php
@@ -94,7 +94,7 @@
                     ?>
                     </div>
 
-                    <label>Confirmation Mot de passe</label> <input type ="password" name ="motdepasseConfirmation" placeholder = "Confirmation Mot de passe "size ="30"/ id="motdepasseConfirmation" value="<?php if(isset($_COOKIE['motdepasseConfirmation'])){ echo $_COOKIE['motdepasseConfirmation'];} ?>">>
+                    <label>Confirmation Mot de passe</label> <input type ="password" name ="motdepasseConfirmation" placeholder = "Confirmation Mot de passe "size ="30" id="motdepasseConfirmation" value="<?php if(isset($_COOKIE['motdepasseConfirmation'])){ echo $_COOKIE['motdepasseConfirmation'];} ?>">>
 
                     <div class="erreur">
                     <?php
@@ -190,5 +190,5 @@
 </html>
 
 <?php 
-	include("commun/fermer.php");
+	include("TEST__formulaire-inscription-php/commun/fermer.php");
 ?>
