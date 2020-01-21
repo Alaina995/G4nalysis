@@ -6,9 +6,12 @@
 		<?php session_start();?>
 	</head>
 	<body>
-		<form >
-			    <p>
+			<h1>Nous contacter</h1>
+			<img  id="wave" src="Waves.png"/>
+        	<div class="linear-gradient"></div>
+        	<img  id="logo" src="G4analysis.png"/>
 
+			    <fieldset>
 				<form id="contact" method="post" action="traitement_formulaire.php">
 
 					<label>Nom</label><input class="input" type="text" id="nom"
@@ -20,8 +23,8 @@
 
                     <label>Message</label><textarea id="message" name="message" rows="4" placeholder="Ecrivez votre message ici..."/ required required size ="30"></textarea><br />
 
-                </p>
                 <input class="button" type="submit" id ="envoi" name="envoi" value="Envoyer votre message" />
+                </fieldset>
             </form>
 
 	</body>
