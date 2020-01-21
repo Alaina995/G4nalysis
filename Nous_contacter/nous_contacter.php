@@ -12,10 +12,8 @@
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
         </a>
 
-        <p class = "titre">Nous contacter</p>
-
         <nav>
-            <img  id="care" src="4Care.png"/>
+            <p class = "titre">Nous contacter</p>
             <img  id="barre" src ="Barre_separation.png"/>
 
             <form >
