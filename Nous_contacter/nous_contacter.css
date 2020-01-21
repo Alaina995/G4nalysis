@@ -12,6 +12,7 @@
     left : 0px;
 }
 
+
 #logo {
     width : auto;
     height : 60px;
@@ -19,6 +20,13 @@
     
 
 }
+h1{
+    text-decoration-color: black;
+    font-size: 20px;
+    top:5px;
+}
+
+
 #retouracc{
     text-decoration: none;
     text-decoration-color: black;
@@ -26,19 +34,106 @@
     top:5px;
 }
 
-h1{
-    text-decoration-color: black;
-    font-size: 20px;
-    top:5px;
+
+.linear-gradient {
+  background: linear-gradient(gray, transparent);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left:0px;
 }
 
-body
-{
-    background-image: url('IMG_7019 - copie 5.jpg');
-    background-position:  center;
-    background-size: 100%;
+.titre{
+    font-family : HelveticaNeue; 
+    font-size : 40px; ;
+    text-align : center ; 
+    font-weight : lighter;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+
 }
 
-fieldset{
-     object-position: center;
+nav {
+     
+    font-family :  HelveticaNeue; 
+    font-size : 20px ; 
+    color:black;
+    border-style : solid ; 
+    text-align : center;
+    border-radius : 3px 3px 15px 15px;
+    border-color : black; 
+    border-width : thin ;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
 }
+
+input{
+    font-size : 20px;
+    line-height: 40px;
+    margin : 4px; 
+    
+}
+
+.mdp {
+
+    font-size : 15px;
+    text-decoration : underline;
+    text-align : right ; 
+    padding-right : 35px;
+}
+
+.connexion {
+   
+    font-size : 20px;
+    border-style : solid;
+    border-color: black;
+    background-color : #1276BA;
+    color : white ; 
+    padding : 0px 20px 0px 20px;
+    margin-left : 35px; 
+    margin-bottom : 20px; 
+    border-width : thin;
+     
+
+}
+
+.connexion:hover{background-color :rgb(31, 31, 100)}
+
+#inscrip {
+    white-space : nowrap;
+    border-style : none;
+    font-size : 20px;
+    border-color :black;
+    color :white;
+    background :#FF9300; 
+    border-width : thin ; 
+    display: inline-block;
+    text-decoration: none;
+
+    width: 100%;
+    margin : 0px;
+    padding : 8px 0px 8px 0px;
+    border-radius : 0px 0px 15px 15px;
+    
+}
+
+#inscrip:hover{background-color :orange}
+
+.resteco{
+    font-size : 15px; 
+}
+
+.alignement {
+    display : inline ;
+}
+
+@media screen and (max-width: 900px) {
+    #wave {
+        display: none;
+    }
+
+}
+
