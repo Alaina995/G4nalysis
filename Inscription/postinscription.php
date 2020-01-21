@@ -45,6 +45,9 @@ if($AfficherFormulaire==1){
     type="password" sera des petits points noir (texte caché)
     type="submit" sera un bouton pour valider le formulaire
     name="nom de l'input" sert à le reconnaitre une fois le bouton submit cliqué, pour le code PHP
+<<<<<<< HEAD
+     -->
+=======
      -->
 }
 
@@ -162,3 +165,4 @@ if($AfficherFormulaire==1){
     }
 ?>
 
+>>>>>>> c3538ce73b2532a1d2aaeb56db99026f64087af7
