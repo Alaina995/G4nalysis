@@ -59,8 +59,8 @@
 
 // Mot de passe
     if(!empty($oldPassword))
-    {
-      if($oldPassword == md5($donnesUser['password']))
+    { 
+      if(md5($oldPassword) == $donnesUser['password'])
       {
         if(!empty($password1) && !empty($password2) && $password1 == $password2)
         {
