@@ -4,7 +4,21 @@
     src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
+#wave{
+    position : fixed; 
+    width : auto ;
+    height : 100%;
+    top : 0px;
+    left : 0px;
+}
 
+#logo {
+    width : auto;
+    height : 60px;
+    float : right ; 
+    
+
+}
 #retouracc{
     text-decoration: none;
     text-decoration-color: black;
