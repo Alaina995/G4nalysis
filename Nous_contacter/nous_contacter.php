@@ -4,40 +4,33 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="nous_contacter.css"/>
 		<?php session_start();?>
-		<script type="text/javascript" src="nous_contacter.js"></script>
 	</head>
 
-	<body>
+	<form id="contact" method="post" action="traitement_formulaire.php">
+        <img  id="logo" src="G4analysis.png"/>
+        
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
         </a>
-		<section id="hire">
-	    
-	    		<h1>Contactez Nous</h1>
-	    
-	    <form>
-		      <div class="field name-box">
-			        <input type="text" id="name" placeholder="Quel est votre nom?"/ required>
-	        		<label for="name">Nom</label>
-			        <span class="ss-icon">check</span>
-		      </div>
 
-		      <div class="field email-box">
-			        <input type="email" id="email" placeholder="votre_email@email.com"/ required="">
-			        <label for="email">Email</label>
-			        <span class="ss-icon">check</span>
-		      </div>
+        <nav>
+            <p class = "titre">Nous contacter</p>
+            <img  id="barre" src ="Barre_separation.png"/>
 
-		      <div class="field msg-box">
-			        <textarea id="msg" rows="4" placeholder="Ecrivez votre message ici..."/ required></textarea>
-			        <label for="msg">Message</label>
-			        <span class="ss-icon">check</span>
-		      </div>
+            <form >
+                <p>
+                    <label>Nom</label><input class="input" type="text" id="nom"
+			        name="nom" placeholder="Quel est votre nom?"/ required size ="30"/><br />
+			        
+                    <label>Email</label><input class="input" type="email"id="email" name="email" placeholder="votre_email@email.com"/ required size ="30"/>
+               
+                    <br />
 
-		      <input class="button" type="submit" value="Send" />
-	  </form>
-	</section>
+                    <label>Message</label><textarea id="message" name="message" rows="4" placeholder="Ecrivez votre message ici..."/ required required size ="30"></textarea><br />
 
+                    <input class="button" type="submit" id ="envoi" name="envoi" value="Envoyer votre message" />
+                </p>
+            </form>
+                
+        </nav>
 	</body>
-
-	<?php require('../Footer/footer.php'); ?>
 </html>
