@@ -30,7 +30,17 @@
     </li>
     <li <?php if ($currentPage === 'profil') {echo 'class="active"';} ?>>
         <a <?php if ($currentPage === 'profil') { echo 'href="#"'; } 
-        else { echo 'href="../Modifier_Profil/modifier_profil_1.php"'; } ?>>
+        else { 
+                      // Destruction des variables de sessions inutiles
+          
+          unset($_SESSION['nomErreur']);
+          unset($_SESSION['prenomErreur']);
+          unset($_SESSION['passwordErreur2']);
+          unset($_SESSION['passwordErreur1']);
+          unset($_SESSION['passwordErreur2']);
+          unset( $_SESSION['emailErreur']);
+            
+            echo 'href="../Modifier_Profil/modifier_profil_1.php"'; } ?>>
             <div class="ligne">
                 <img class="link" src="../Nav_Bar_Website/Nav_bar_images/profile-picture-icon-0.png" alt="Profile picture" />
                 Profil
