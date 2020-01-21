@@ -12,6 +12,19 @@
     left : 0px;
 }
 
+#care{
+    width : 40%;
+    height : 40%;
+
+}
+
+#barre {
+    width : 70%;
+    height : 70%;
+   
+    
+}
+
 
 #logo {
     width : auto;
