@@ -9,7 +9,7 @@ if (isset($_POST['pseudo']) && isset($_POST['passe'])) {
     $requete = "SELECT * FROM users WHERE mail=? AND password=?";
     $resultat = $bdd->prepare($requete);
     $login = $_POST['pseudo'];
-    $mdp = $_POST['passe'];
+    $mdp = md5($_POST['passe']);
     $resultat->execute(array($login, $mdp));
     if ($resultat->rowCount() == 1) {
         // l'utilisateur existe dans la table
