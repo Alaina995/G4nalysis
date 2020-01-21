@@ -8,8 +8,8 @@
     </head>
 
     <body>
-    	<p> Vous avez une question, nous avons la réponse </p>
-    	
+    	<p id="titre"> Vous avez une question, nous avons la réponse </p>
+    	<?php require('../Footer/footer.php'); ?>
 <nav>
     <ul>
         <li class="deroulant"> <a href="#"> Vous n'avez pas encore de boitier 4care ?</a>
@@ -74,6 +74,7 @@
         </li>
     </ul>    
 </nav>      
+
 
 
       <?php $title = 'Profil'; ?>
