@@ -9,6 +9,7 @@
 a.{
 	text-decoration: none;
 }
+
 .button2 {
    
     font-size : 20px;
@@ -20,12 +21,10 @@ a.{
     padding-bottom : 5px;
     padding-left : 20px;
     padding-right : 20px;
-    margin-left : 500px; 
+    margin-left : 600px; 
     margin-bottom : 20px; 
     border-width : thin;
     text-align: center;
-     
-
 }
 
 .button2:hover{background-color :rgb(31, 31, 100)}
@@ -157,12 +156,24 @@ li.nav_bar{
 	}
 
 }
-/*
-@media screen and (min-width: 350px) {
-	#nav_menu_bar{
-		display: none;
-	}
-}*/
+.button2 {
+   
+    font-size : 20px;
+    border-style : solid;
+    border-color: black;
+    background-color : #1276BA;
+    color : white ; 
+    padding-top : 5px;
+    padding-bottom : 5px;
+    padding-left : 20px;
+    padding-right : 20px;
+    margin-left : 200px; 
+    margin-bottom : 20px; 
+    border-width : thin;
+    text-align: center;
+}
+
+.button2:hover{background-color :rgb(31, 31, 100)}
 
 .nav_bar_horizon {
 	list-style-type: none;
