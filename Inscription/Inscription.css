@@ -4,6 +4,21 @@
     src: url('HelveticaNeue Thin.ttf') format('truetype');
 }
 
+body
+{
+    background-image: url('IMG_7001.jpg');
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.erreur{
+    color: red;
+}
 
 #wave{
     position : fixed; 
@@ -60,11 +75,11 @@
 
 .titre{
     font-family : HelveticaNeue; 
-    font-size : 40px; ;
+    font-size : 3em; ;
     text-align : center ; 
-    font-weight : lighter;
-    margin-left: 10%;
+    font-weight : lighter;;
     margin-top: 20px;   
+    margin-bottom: 0px;
 }
 
 nav {
@@ -80,7 +95,8 @@ nav {
     width: 400px;
     margin: auto;
     margin-top: 100px;
-    box-shadow: rgb(128, 128, 128) 0 0 20px;
+    box-shadow: rgb(87, 87, 87) 0 0 20px;
+    background-color: rgb(247, 247, 247);
 }
 
 input{

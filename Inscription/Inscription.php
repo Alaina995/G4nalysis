@@ -1,14 +1,6 @@
 <?php
     session_start();
 
-    include'Lien_avec_bdd.php';
-    global $db;
-
-    //$q= $db- >query("SELECT * FROM users");
-    while($users = $q){
-
-    }
-
     ?>
 
 <html>
@@ -24,10 +16,9 @@
             
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
         </a>
-        <p class = "titre"> Inscription</p>
 
         <nav>
-
+            <p class = "titre"> Inscription</p>
             <img  id="care" src="4Care.png"/>
             <img  id="barre" src ="Barre_separation.png"/>
 
@@ -85,7 +76,7 @@
 
                     <br />
 
-                    <label>Mot de passe</label><input maxlength="20" type="password" name="motdepasse" placeholder = "Mot de passe" size ="30"  required = "required" id="motdepasse" value="<?php if(isset($_COOKIE['motdepasse'])){ echo $_COOKIE['motdepasse'];} ?>">
+                    <label>Mot de passe</label><input maxlength="20" type="password" name="motdepasse" placeholder = "Mot de passe" size ="30"   id="motdepasse" required = "required" value="<?php if(isset($_COOKIE['motdepasse'])){ echo $_COOKIE['motdepasse'];} ?>">
 
                     <div class="erreur">
                     <?php
@@ -109,7 +100,7 @@
                     ?>
                     </div>
 
-                    <label>Ville</label><input maxlength="30" type="text" name="Ville" placeholder = "Ville" size ="30"required = "required" / id="Ville" value="<?php if(isset($_COOKIE['Ville'])){ echo $_COOKIE['Ville'];} ?>">
+                    <label>Ville</label><input maxlength="30" type="text" name="Ville" placeholder = "Ville" size ="30"   id="Ville" value="<?php if(isset($_COOKIE['Ville'])){ echo $_COOKIE['Ville'];} ?>">
 
                     <div class="erreur">
                         <?php
@@ -188,7 +179,3 @@
         </nav>
     </body>
 </html>
-
-<?php 
-	include("TEST__formulaire-inscription-php/commun/fermer.php");
-?>
