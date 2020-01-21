@@ -1,6 +1,6 @@
 <?php
 
-	$_POST"mail") = $email;
+	$_POST("mail") = $email;
 	$_POST("mail2") = $email2;
 
 	if (isset($_POST("envoi"))) {
