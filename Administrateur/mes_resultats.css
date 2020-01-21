@@ -1,0 +1,51 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+#table {
+    width: 50%;
+}
+
+
+/* body
+{
+    background-image: url('IMG_6986.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+} */
+
+#image {
+    width: 50%;
+}
+
+#alignement {
+    display: inline;
+}
+
+#resultats {
+    font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#resultats td,
+#resultats th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#resultats tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#resultats tr:hover {
+    background-color: rgb(250, 181, 78);
+}
+
+#resultats th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(2, 64, 136);
+    color: white;
+}

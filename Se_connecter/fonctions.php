@@ -22,3 +22,8 @@ function getBdd() {
         "g4nalysis_users", "secret", // C'est quoi "secret" ???
         array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 }
+
+function arrondi($val)
+{
+    return round ( $val, 1 , PHP_ROUND_HALF_UP );
+}

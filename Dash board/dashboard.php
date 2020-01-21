@@ -30,27 +30,27 @@
 				for($i = 0; $i <$nb_data ; $i++)
 				{
 					if($capteurId == 1 && $testsUser[$i]['idCapteur'] == 1){
-						$temperature = $testsUser[$i]['valeur'];
+						$temperature = arrondi($testsUser[$i]['valeur']);
 					}
 
 
 					if($capteurId == 2 && $testsUser[$i]['idCapteur'] == 2){
-						$audition = $testsUser[$i]['valeur'];
+						$audition = arrondi($testsUser[$i]['valeur']);
 					}
 
 
 					if($capteurId == 3 && $testsUser[$i]['idCapteur'] == 3){
-						$coeur = $testsUser[$i]['valeur'];
+						$coeur = arrondi($testsUser[$i]['valeur']);
 					}
 
 
 					if($capteurId == 4 && $testsUser[$i]['idCapteur'] == 4){
-						$vue = $testsUser[$i]['valeur'];
+						$vue = arrondi($testsUser[$i]['valeur']);
 					}
 
 
 					if($capteurId == 5 && $testsUser[$i]['idCapteur'] == 5){
-						$etendueAudio = $testsUser[$i]['valeur'];
+						$etendueAudio = arrondi($testsUser[$i]['valeur']);
 					}
 				}
 			}
