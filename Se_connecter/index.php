@@ -7,8 +7,6 @@
     </head>
 <body>
         <form action="postconnexion.php" method="post">
-        <img  id="wave" src="Waves.png"/>
-        <div class="linear-gradient"></div>
         <img  id="logo" src="G4analysis.png"/>
         
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil

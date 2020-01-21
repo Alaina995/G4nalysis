@@ -4,7 +4,7 @@
     include'Lien_avec_bdd.php';
     global $db;
 
-    $q= $db- >query("SELECT * FROM users");
+    //$q= $db- >query("SELECT * FROM users");
     while($users = $q){
 
     }
@@ -20,8 +20,6 @@
     </head>
     <body>
 
-        <img  id="wave" src="Waves.png"/>
-        <div class="linear-gradient"></div>
         <img  id="logo" src="G4analysis.png"/>
             
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
@@ -87,7 +85,7 @@
 
                     <br />
 
-                    <label>Mot de passe</label><input maxlength="20" type="password" name="motdepasse" placeholder = "Mot de passe" size ="30" id="motdepasse" value="<?php if(isset($_COOKIE['motdepasse'])){ echo $_COOKIE['motdepasse'];} ?>">>
+                    <label>Mot de passe</label><input maxlength="20" type="password" name="motdepasse" placeholder = "Mot de passe" size ="30" id="motdepasse" value="<?php if(isset($_COOKIE['motdepasse'])){ echo $_COOKIE['motdepasse'];} ?>">
 
                     <div class="erreur">
                     <?php
@@ -99,7 +97,7 @@
                     ?>
                     </div>
 
-                    <label>Confirmation Mot de passe</label> <input maxlength="20" type ="password" name ="motdepasseConfirmation" placeholder = "Confirmation Mot de passe "size ="30" id="motdepasseConfirmation" value="<?php if(isset($_COOKIE['motdepasseConfirmation'])){ echo $_COOKIE['motdepasseConfirmation'];} ?>">>
+                    <label>Confirmation Mot de passe</label> <input maxlength="20" type ="password" name ="motdepasseConfirmation" placeholder = "Confirmation Mot de passe "size ="30" id="motdepasseConfirmation" value="<?php if(isset($_COOKIE['motdepasseConfirmation'])){ echo $_COOKIE['motdepasseConfirmation'];} ?>">
 
                     <div class="erreur">
                     <?php
@@ -111,7 +109,7 @@
                     ?>
                     </div>
 
-                    <label>Ville</label><input maxlength="30" type="text" name="Ville" placeholder = "Ville" size ="30"/ id="Ville" value="<?php if(isset($_COOKIE['Ville'])){ echo $_COOKIE['Ville'];} ?>">>
+                    <label>Ville</label><input maxlength="30" type="text" name="Ville" placeholder = "Ville" size ="30"/ id="Ville" value="<?php if(isset($_COOKIE['Ville'])){ echo $_COOKIE['Ville'];} ?>">
 
                     <div class="erreur">
                         <?php
@@ -125,7 +123,7 @@
 
                     <br />
 
-                    <label>Code postal</label><input maxlength="5" type="text" name="codepo" placeholder = "Code postal " size ="30"/id="CP" value="<?php if(isset($_COOKIE['codepo'])){ echo $_COOKIE['codepo'];} ?>">>
+                    <label>Code postal</label><input maxlength="5" type="text" name="codepo" placeholder = "Code postal " size ="30"/id="CP" value="<?php if(isset($_COOKIE['codepo'])){ echo $_COOKIE['codepo'];} ?>">
 
                     <div class="erreur">
                         <?php
@@ -137,7 +135,7 @@
                         ?>
                     </div>
 
-                    <label>Rue </label><input maxlength="30" type="text" name="rue" placeholder = "Rue " size ="30"/ id="rue" value="<?php if(isset($_COOKIE['rue'])){ echo $_COOKIE['rue'];} ?>">>
+                    <label>Rue </label><input maxlength="30" type="text" name="rue" placeholder = "Rue " size ="30"/ id="rue" value="<?php if(isset($_COOKIE['rue'])){ echo $_COOKIE['rue'];} ?>">
 
                     <div class="erreur">
                         <?php
@@ -149,7 +147,7 @@
                         ?>
                     </div>
 
-                    <label>Numéro de rue</label><input maxlength="20" type="text" name="nrue" placeholder = "Numéro de rue " size ="30"/ id="nrue" value="<?php if(isset($_COOKIE['nrue'])){ echo $_COOKIE['nrue'];} ?>">>
+                    <label>Numéro de rue</label><input maxlength="20" type="text" name="nrue" placeholder = "Numéro de rue " size ="30"/ id="nrue" value="<?php if(isset($_COOKIE['nrue'])){ echo $_COOKIE['nrue'];} ?>">
 
                     <div class="erreur">
                         <?php
@@ -162,7 +160,7 @@
                     </div>
 
                 </p>
-                <input type="submit" nom ="formsend" value="Soumettez votre candidature" id="formsend">
+                <input type="submit" nom ="formsend" value="S'inscrire" class = "connexion" id="formsend">
 
             </form>
 
@@ -172,9 +170,9 @@
             <br />
 
 
-            <div class = "alignement">
-                <a href="../Dash board/dashboard.php" class = "connexion">S'inscrire</a> <!-- Page de connection compte -->
-            </div>
+            <!-- <div class = "alignement"> -->
+                <!-- <div class = "alignement"><a href="../Dash board/dashboard.php" >S'inscrire</a>--> <!-- Page de connection compte -->
+            <!-- </div> --> 
 
             <br /><br />
             
