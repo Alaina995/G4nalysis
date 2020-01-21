@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="mentionslegales.css" />
         <title>Mentions légales</title>
+        <?php session_start();?>
     </head>
 
     <body>

@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="FAQ.css" />
         <title>FAQ</title>
+        <?php session_start();?>
     </head>
 
     <body>
@@ -76,7 +77,7 @@
 
 
       <?php $title = 'Profil'; ?>
-    <?php $currentPage = 'profil'; ?>
+    <?php $currentPage = '/'; ?>
       <?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
 
     </body>
