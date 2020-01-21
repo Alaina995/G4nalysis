@@ -7,6 +7,10 @@
         <?php session_start();?>
     </head>
     <body>
+
+      <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
+      </a>
+      
       <div id="conteneur">
     	<h1> Qui sommes-nous ? </h1>
     	<p class="texte"> Nous sommes une jeune start-up crée en 2018 et nous développons des solutions techniques pour nos clients. Nous sommes composée de 6 collaborateurs et l’année dernière nous avons réalisé un chiffre d’affaire de 500.000€. Nous proposons une solution d'avenir pour faire face aux probèmes. La solution comprend un boîtier composé des différents capteurs pour les analyses et un site web (vous êtes actuellement dessus) qui permet de visualiser les résultats et de contacter un médecin en cas de besoin. Notre boitier est capable de faire les actions suivantes : 
@@ -19,14 +23,9 @@
             <li> Test de réflexe visuel </li>
        </ul>  
       </div>
-        
-    <?php require('../Footer/footer.php'); ?>
-
-      <?php $title = 'Profil'; ?>
-    <?php $currentPage = '/'; ?>
-      <?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
-   
     </body>
-</html>        
+  <?php require('../Footer/footer.php'); ?> 
+</html>  
+
 
 

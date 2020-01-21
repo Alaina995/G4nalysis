@@ -8,8 +8,10 @@
     </head>
 
     <body>
+        <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
+        </a>
+      
     	<p id="titre"> Vous avez une question, nous avons la réponse </p>
-    	<?php require('../Footer/footer.php'); ?>
 <nav>
     <ul>
         <li class="deroulant"> <a href="#"> Vous n'avez pas encore de boitier 4care ?</a>
@@ -76,12 +78,8 @@
 </nav>      
 
 
-
-      <?php $title = 'Profil'; ?>
-    <?php $currentPage = '/'; ?>
-      <?php require('../Nav_Bar_Website/nav_bar_principale.inc.php'); ?>
-
     </body>
+      <?php require('../Footer/footer.php'); ?>
 </html>
 
 

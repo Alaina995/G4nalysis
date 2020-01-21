@@ -4,10 +4,12 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="mentionslegales.css" />
         <title>Mentions légales</title>
-        <?php session_start();?>
     </head>
 
     <body>
+        <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
+        </a>
+
     	<h1>Mentions légales</h1>
 
     	<h2>Edition du site</h2>
@@ -21,5 +23,7 @@
 
 
     </body>
+    <?php require('../Footer/footer.php'); ?>
+
 </html>
 

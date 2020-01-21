@@ -63,29 +63,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
       <!--<button type="button" onclick="toggle_text();">En savoir plus</button>
       

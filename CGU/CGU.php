@@ -6,6 +6,9 @@
     </head>
 
     <body>
+
+        <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
+        </a>
 		<h1> Conditions générales d'utilisations </h1>
 
         <h1> Conditions générales d'utilisation de G4nalysis </h1>
@@ -25,8 +28,6 @@
         <h6>Article 6: CONDITIONS GENERALES DE VENTE</h6>
         <p>Texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte </p>
 
-
-		<?php require('../Footer/footer.php'); ?>
-
 	</body>
+    <?php require('../Footer/footer.php'); ?>
 </html>

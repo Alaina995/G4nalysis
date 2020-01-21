@@ -1,10 +1,17 @@
-@import url("../Nav_Bar_Website/Nav_bar verticale.css");
 @import url("../Footer/footer.css");
 body {
     background-image: url("BackgroundFAQ.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+#retouracc{
+    text-decoration: none;
+    text-decoration-color: black;
+    font-size: 20px;
+    top:5px;
+}
+
 
 .footer {
     position: fixed;
