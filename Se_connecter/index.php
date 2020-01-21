@@ -7,8 +7,6 @@
     </head>
 <body>
         <form action="postconnexion.php" method="post">
-        <img  id="wave" src="Waves.png"/>
-        <div class="linear-gradient"></div>
         <img  id="logo" src="G4analysis.png"/>
         
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
@@ -22,9 +20,9 @@
 
             <form >
                 <p>
-                    <label> </label><input type="email" name="pseudo" id="pseudo" placeholder = "Adresse email " size ="30"/>
+                    <label> </label><input type="email" name="pseudo" id="pseudo" placeholder = "Adresse email " size ="30" required = "required"/>
                     
-                    <label> </label> <input type ="password" name ="passe" id="passe" placeholder = "Mot de passe "size ="30"/>
+                    <label> </label> <input type ="password" name ="passe" id="passe" placeholder = "Mot de passe "size ="30 " required="required"/>
                 </p>
             </form>
 
