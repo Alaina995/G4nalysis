@@ -12,7 +12,6 @@
   
   //bdd et SQL
   require '../Se_connecter/fonctions.php';
-  $bdd = getBdd();
 
   //Récupération des données de l'utilisateur
   $donnesUser = $_SESSION['donnesUser'];
@@ -99,6 +98,40 @@
     {
       // L'identification a réussi
       echo "pas d'erreur".$newMail." ".$newNom." ".$newPrenom." ".$newPassword;
+
+      // "UPDATE `users` SET `nom` = 'mklm', `prenom` = 'jf', `mail` = 'ejkkh@jk', `password` = '13546' WHERE `users`.`id` = 15 "
+
+          
+      // Create connection
+      $conn = new mysqli("localhost", "g4nalysis_users", "secret", "g4nalysis2");
+      // Check connection
+      if ($conn->connect_error) {
+          die("Connection failed: " . $conn->connect_error);
+      }
+
+      $sql = "UPDATE users SET nom = '" .$newNom. "', prenom = '" .$newPrenom. "', mail = '" .$newMail. "', password = '" .$newPassword. "' WHERE id = '" .$donnesUser['id']."'";
+
+      if ($conn->query($sql) === TRUE) {
+          echo "Record updated successfully";
+
+          // Mise à jour de la variable de session donnesUser
+
+          $bdd = getBdd();
+
+          $requete = "SELECT * FROM users WHERE id=?";
+          $resultat = $bdd->prepare($requete);
+          $resultat->execute(array($donnesUser['id']));
+    
+          $donnesUser = $resultat->fetch();
+          $_SESSION['donnesUser'] = $donnesUser;
+          $_SESSION['prenomUser'] = $donnesUser['prenom'];
+
+
+      } else {
+          echo "Error updating record: " . $conn->error;
+      }
+
+      $conn->close();
+      }
     }
-  }
 ?>

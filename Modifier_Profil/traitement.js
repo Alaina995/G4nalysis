@@ -10,7 +10,7 @@ function confirmBoxProfil() {
 		if(email1.value == email2.value){
 			if(password2.value == "" || password2.value== password1.value){
 				email2.style.color = "green";
-				var result = confirm("Etes vous sûr de vouloir soumettre votre candidature ?");
+				var result = confirm("Etes vous sûr de vouloir mettre à jour votre profil ?");
 				if (result == false) {
 					return false;
 				}
