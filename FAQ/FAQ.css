@@ -1,172 +1,217 @@
 @import url("../Nav_Bar_Website/Nav_bar verticale.css");
 @import url("../Footer/footer.css");
+body {
+    background-image: url("BackgroundFAQ.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
-body { background-image: url("BackgroundFAQ.png");
-       background-size: 100%;
-       background-repeat: no-repeat;}
-       
+.footer {
+    position: fixed;
+}
 
-p { font-size: 30px;
-    color: black;
+#titre {
+    font-size: 3.5em;
+    color: rgb(255, 121, 31);
     text-align: center;
-    font-family:"HelveticaNeue"; }
-
-span p { font-size: large;
-       justify-content: : right;
-       padding: 20px;
-       border-radius: 10px;
-       color: #3C3C3A;
-       font-family:"HelveticaNeue";
-       font-weight: normal;
-       text-align: justify;}
-
-span a { text-decoration: none;
-         font-weight: bold;
-         text-align: left; 
-         color: black; }
-
-      
-
-#question1 { height: 0;
-             overflow: hidden;
-             transition: height 1s;
-             text-decoration: none; } 
-#question1 fieldset { padding: 0px;
-                      border: solid white;
-                      border-radius: 10px;}
-#question1:target { height: 200px; }
-
-
-#question2 { height: 0;
-             overflow: hidden;
-             transition: height 1s;
-             text-decoration: none; } 
-#question2 fieldset { padding: 0px;
-                      border: solid white;
-                      border-radius: 10px;}
-#question2:target { height: 200px; }
-
-
-#question3 { height: 0;
-             overflow: hidden;
-             transition: height 1s;
-             text-decoration: none; } 
-#question3 fieldset { padding: 0px;
-                      border: solid white;
-                      border-radius: 10px;}
-#question3:target { height: 200px; }
-
-#question4 { height: 0;
-             overflow: hidden;
-             transition: height 1s;
-             text-decoration: none;
-             opacity: 0.4; } 
-#question4 fieldset { padding: 0px;
-                      border: solid white;
-                      border-radius: 10px;}
-#question4:target { height: 200px; }
-
-
-#question5 { height: 0;
-             overflow: hidden;
-             transition: height 1s;
-             text-decoration: none; } 
-#question5 fieldset { padding: 0px;
-                      border: solid white;
-                      border-radius: 10px;}
-#question5:target { height: 200px; }
-
-
-#question6 { height: 0;
-             overflow: hidden;
-             transition: height 1s;
-             text-decoration: none; } 
-#question6 fieldset { padding: 0px;
-                      border: solid white;
-                      border-radius: 10px;}
-#question6:target { height: 200px; }
-
-
-
-
-*{margin: 0px;
-  padding: 10px;
-  font-family: HelveticaNeue;}
-
-nav{width: 100%;
-    background-color: transparent;
-    position: sticky;}  
-
-nav ul{ list-style-type: none; }
-
-nav ul li{ float: left;
-           width: 45%;
-           text-align: center;
-           font-size: large;
-           position: relative; }  
-
-nav ul::after{content: "";
-              display: table;
-              clear: both;}
-
-nav a { display: block;
-        text-decoration: none;
-        color: black;
-        padding: 10px 0px ; }
-
-nav a:hover{ color: orange; }    
-
-.sous{ display: none;
-       box-shadow: 0px 1px 2px #CCC;
-       background-color: white;
-       position: absolute;
-       width: 100%; }
-
-nav > ul li:hover .sous { display: block; } 
-
-.sous li{ float: none;
-          width: 100%;
-          text-align: left; }
-
-.sous a{ padding: 5px;
-         border-bottom: none; } 
-
-nav ul li ul li { margin: 0px;
-                  padding: 0px; }
-
-                          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    font-family: Helvetica;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+span p {
+    font-size: large;
+    justify-content: right;
+    padding: 20px;
+    border-radius: 5px;
+    color: #3C3C3A;
+    font-family: "HelveticaNeue";
+    font-weight: normal;
+    text-align: justify;
+}
+
+span a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+#question1 {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+    text-decoration: none;
+}
+
+#question1 fieldset {
+    padding: 0px;
+    border: solid rgb(44, 74, 155);
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+#question1:target {
+    height: 200px;
+}
+
+#question2 {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+    text-decoration: none;
+}
+
+#question2 fieldset {
+    padding: 0px;
+    border: solid rgb(44, 74, 155);
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+#question2:target {
+    height: 200px;
+}
+
+#question3 {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+    text-decoration: none;
+}
+
+#question3 fieldset {
+    padding: 0px;
+    border: solid rgb(44, 74, 155);
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+#question3:target {
+    height: 200px;
+}
+
+#question4 {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+    text-decoration: none;
+}
+
+#question4 fieldset {
+    padding: 0px;
+    border: solid rgb(44, 74, 155);
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+#question4:target {
+    height: 200px;
+}
+
+#question5 {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+    text-decoration: none;
+}
+
+#question5 fieldset {
+    padding: 0px;
+    border: solid rgb(44, 74, 155);
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+#question5:target {
+    height: 200px;
+}
+
+#question6 {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+    text-decoration: none;
+}
+
+#question6 fieldset {
+    padding: 0px;
+    border: solid rgb(44, 74, 155);
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+#question6:target {
+    height: 200px;
+}
+
+* {
+    font-family: HelveticaNeue;
+}
+
+nav {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(18, 92, 177);
+    position: sticky;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 45%;
+    text-align: center;
+    font-size: large;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    box-shadow: dimgray 0 0 8px;
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    padding: 5px;
+    border-bottom: none;
+    color: rgb(46, 101, 184);
+}
+
+nav ul li ul li {
+    margin: 0px;
+    padding: 0px;
+}

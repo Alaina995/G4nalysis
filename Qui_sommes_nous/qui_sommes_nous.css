@@ -1,32 +1,51 @@
 @import url("../Nav_Bar_Website/Nav_bar verticale.css");
 @import url("../Footer/footer.css");
+body {
+    background-image: url("fondquisommesnous.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
-body { background-image: url("fondquisommesnous.png"); 
-       background-size: 100%;
-       background-repeat: no-repeat;}
-
-h1 { color: orange;
-     margin-left: 100px;
-     font-size: 3.5vw;
-     font-family:"HelveticaNeue";}
-
-p { font-size: large;
-    font-family:"HelveticaNeue";
-    margin-left: 20px; }
-
-li { font-size: large;
-    font-family:"HelveticaNeue";
-    margin-left: 20px; }
-
-a { position: absolute; bottom: 30px; left: 30px; 
-    text-decoration-color: black;
-    font-size: large;
+h1 {
+    color: orange;
+    margin-left: 20%;
+    font-size: 4em;
     font-family: "HelveticaNeue";
-    text-decoration: none; } 
+}
 
-a:hover { color: orange;
-          transition-duration: 500ms; }           
+.texte {
+    font-size: 1.5em;
+    font-family: "HelveticaNeue";
+    margin-left: 20px;
+}
 
-        
+.liste li {
+    font-size: 1.5em;
+    font-family: "HelveticaNeue";
+    margin-left: 20px;
+}
 
+.bouton {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    text-decoration-color: black;
+    font-size: 5em;
+    font-family: "HelveticaNeue";
+    text-decoration: none;
+}
 
+.bouton:hover {
+    color: orange;
+    transition-duration: 500ms;
+}
+
+#conteneur {
+    margin-top: 80px;
+    margin-left: 70px;
+    padding-bottom: 180px;
+}
+
+.footer {
+    position: fixed;
+}
