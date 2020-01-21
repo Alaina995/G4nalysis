@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'HelveticaNeueThin';
+    src: url('HelveticaNeueThin.ttf') format('truetype');
+}
+
+h1{
+	text-align: center;
+    font-family: HelveticaNeueMed;
+    color: #1560BD;
+    font-size: 5em;
+}

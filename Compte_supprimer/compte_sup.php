@@ -2,7 +2,7 @@
 	<head>
 		<title>Compte supprimé</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="compte_supprime.css"/>
+		<link rel="stylesheet" href="compte_sup.css"/>
 	</head>
 
 	<body>
