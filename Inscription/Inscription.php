@@ -188,8 +188,6 @@
             <a id="connect" href="../Se_connecter/index.php"> Connectez-vous</a><br /><br />
                 
         </nav>
-
-    
     </body>
 </html>
 
