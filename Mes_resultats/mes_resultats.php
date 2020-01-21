@@ -22,8 +22,6 @@
            
 
             // WHERE idUser =? ORDER BY dateTime
-
-            require_once("../phpGrid_Lite/conf.php");
             
 
 		?>
