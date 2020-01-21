@@ -1,8 +1,15 @@
-@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+@import url("../Footer/footer.css");
 
-/*
-Images
-*/
+@font-face
+{
+     font-family: 'HelveticaNeue';
+     src: url('../HelveticaNeue Thin.ttf') format('truetype');
+}
+
+*{
+	font-family: 'HelveticaNeue';
+}
+
 
 body
 {
@@ -196,17 +203,10 @@ img{
 	color: black;
 }
 
-@import url("../Footer/footer.css");
-
-@font-face
-{
-     font-family: 'HelveticaNeue';
-     src: url('../HelveticaNeue Thin.ttf') format('truetype');
-}
-
-a.{
+a.button2{
 	text-decoration: none;
 }
+
 
 .button2 {
    
@@ -219,7 +219,7 @@ a.{
     padding-bottom : 5px;
     padding-left : 20px;
     padding-right : 20px;
-    margin-left : 600px; 
+    margin-left : 550px; 
     margin-bottom : 20px; 
     border-width : thin;
     text-align: center;

@@ -6,6 +6,18 @@
      src: url('../HelveticaNeue Thin.ttf') format('truetype');
 }
 
+.alignement{
+  list-style-type: none;
+}
+
+body
+{
+    background-image: url('IMG_7024 - copie 3.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
 a.{
 	text-decoration: none;
 }
@@ -21,7 +33,6 @@ a.{
     padding-bottom : 5px;
     padding-left : 20px;
     padding-right : 20px;
-    margin-left : 600px; 
     margin-bottom : 20px; 
     border-width : thin;
     text-align: center;
@@ -51,6 +62,9 @@ a.{
 	box-shadow: black 0 0 8px;
 }
 
+.alignement{
+  
+}
 
 .ligne img {
 	display: block;

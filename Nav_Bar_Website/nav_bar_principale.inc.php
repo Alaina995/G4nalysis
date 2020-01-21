@@ -74,12 +74,12 @@
 <ul class="nav_bar_horizon">
 
 
-    <!-- <li><a id="nav_deconnexion" href="../Accueil/vraie_page_accueil.php">Se déconnecter</a></li> -->
-    <li>  
+    <li><button id="nav_deconnexion" onClick="confirmBox()" >Se déconnecter</button></li>
+    <!-- <li>  
         <form method="POST" action="../Nav_Bar_Website/logout.php" onsubmit="return confirmBox()">
             <input type="submit" id="nav_deconnexion"  value="Se déconnecter">
         </form>
-    </li>
+    </li> -->
     <li><img  id="nav_menu_bar" src="../Nav_Bar_Website/Nav_bar_images/Menu_Bar-512.png"/></li>
     <li id="bienvenue"><p>Bienvenue, <?php echo "" . escape($prenomUser) ;?></p></li>
     <li id="logo_li"><img  id="nav_logo" src="../Nav_Bar_Website/Nav_bar_images/G4analysis.png"/></li>
