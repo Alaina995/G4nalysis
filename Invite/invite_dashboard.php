@@ -82,17 +82,17 @@
 
 		<ul class="nav_bar">
     		<li>
-    			<a href="Page 2.html">
+    			<a href="../Invite/invite_dashboard.php">
 	    			<div class="ligne">
-	    				<img src="../Accueil/vraie_page_accueil.php" />
+	    				<img src="home-icon-png-round-7.png" />
 	    				Accueil
 	    			</div>
 	    		</a>
     		</li>
     		<li>
-    			<a href="Page 2.html">
+    			<a href="../Invite/invite_dashboard.php">
 	    			<div class="ligne">
-	    				<img class="link" src="../Invite/invite_dashboard.php" alt="Profile picture" />
+	    				<img class="link" src="link" src="start-button-icon-png-16.png" alt="Profile picture" />
 	    				Démarer un test
 	    			</div>
 	    		</a>
@@ -121,7 +121,7 @@
     	<ul class="nav_bar_horizon">
 
 
-            <li><a id="nav_deconnexion" href="Page 2.html">Créer un compte</a></li>
+            <li><a id="nav_deconnexion" href="../Accueil/vraie_page_accueil.php">Créer un compte</a></li>
             <li><img  id="nav_menu_bar" src="Menu_Bar-512.png"/></li>
             <li id="bienvenue"><p>Bienvenue !</p></li>
     		<li><a href="../Accueil/vraie_page_accueil.php" id="logo_li"><img  id="nav_logo" src="G4analysis.png"/><a/></li>
@@ -132,7 +132,7 @@
 	<section class="features ">
                 <figure>
 					<a class="lancer_test">Cliquer pour lancer le test</a>
-                    <img classe="images" src="images_projet/case_temper.png" alt="Tester ton Température">
+                    <img classe="images" src="case_temper.png" alt="Tester ton Température">
                     <figcaption id="temperature">Température</figcaption>
 					<p id="temperature1"><?php echo "" . escape($temperature) ;?><a class="unite">°C</a></p>
 					<a href="..\Démarrer un ou plusieurs tests\DebutTestTemp.html" class="click_box" href="#">
@@ -141,7 +141,7 @@
                 </figure>
                 <figure>
 					<a  class="lancer_test">Cliquer pour lancer le test</a>
-					<img classe="images" src="images_projet/case_audit.png" alt="Tester audition">
+					<img classe="images" src="case_audit.png" alt="Tester audition">
 					<figcaption  id="audition">Audition</figcaption>
 					<p id="audition1"><?php echo "" . escape($audition) ;?><a class="unite">%</a></p>
 					<a href="..\Démarrer un ou plusieurs tests\DebutTestAudition.html" class="click_box" href="#">
@@ -150,7 +150,7 @@
 				</figure>
 				<figure>
 					<a class="lancer_test">Cliquer pour lancer le test</a>
-					<img classe="images" src="images_projet/case_coeur.png" alt="Tester la fréquence de coeur">
+					<img classe="images" src="case_coeur.png" alt="Tester la fréquence de coeur">
 					<figcaption id="coeur">Coeur</figcaption>
 					<p  id="coeur1"><?php echo "" . escape($coeur) ;?><a class="unite">Bpm</a></p>
 					<a href="..\Démarrer un ou plusieurs tests\DebutTestCoeur.html" class="click_box" href="#">
@@ -159,7 +159,7 @@
 				</figure>
 				<figure>
 					<a class="lancer_test">Cliquer pour lancer le test</a>
-					<img classe="images" src="images_projet/case_visu.png" alt="Tester la vue">
+					<img classe="images" src="case_visu.png" alt="Tester la vue">
 					<figcaption  id="vue">Vue</figcaption>
 					<p id="vue1"><?php echo "" . escape($vue) ;?><a class="unite">s</a></p>
 					<a href="..\Démarrer un ou plusieurs tests\DebutTestVisuel.html" class="click_box" href="#">
@@ -168,7 +168,7 @@
 				</figure>
 				<figure>
 					<a class="lancer_test">Cliquer pour lancer le test</a>
-					<img classe="images" src="images_projet/case_freq.png" alt="Tester l'étendue auditive">
+					<img classe="images" src="case_freq.png" alt="Tester l'étendue auditive">
 					<figcaption  id="étendue">Etendue audio</figcaption>
 					<p id="étendue1"><?php echo "" . escape($etendueAudio) ;?><a class="unite">%</a></p>
 					<a href="..\Démarrer un ou plusieurs tests\DebutTestEtendueAuditive.html" class="click_box" href="#">
