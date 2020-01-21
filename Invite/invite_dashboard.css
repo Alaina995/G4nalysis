@@ -1,0 +1,197 @@
+@import url("../Nav_Bar_Website/Nav_bar verticale.css");
+
+/*
+Images
+*/
+
+body
+{
+    background-image: url('IMG_7024 - copie 3.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.features{
+    padding: 60px;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.features figure {  
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+	margin: auto;
+	/*
+	    margin: auto;
+    width: 200px;
+    padding: 30px;  
+	text-align: center;
+	*/
+}
+
+.click_box{
+	opacity:0;
+	
+	position : absolute;
+	
+	text-decoration: none;
+
+	margin: 0px;
+	color : black;
+
+	padding-top: 68px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+	width: 150px;
+	height: 195px;
+
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+
+}
+
+.features figure:hover .click_box{
+	opacity :1;
+
+	padding-top: 85px;
+	padding-left: 33px;
+	padding-right: 30px;
+	
+	width: 180px;
+	height: 240px;
+
+	font-size: 25px;
+	transition-duration: 0.5s;
+}
+
+img{
+	transition-duration:0.5s;
+}
+
+.features figure:hover img{ 
+	box-shadow: black 0 0 20px;
+	width: 250px;
+
+	transition-duration:0.5s;
+	
+}
+
+.lancer_test{
+	margin-top: 180px;
+	margin-left: 40px;
+	width: 150px;
+
+	color: #ff9100;
+
+	opacity: 0;
+	
+	position : absolute;
+
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	transition-duration: 0.5s;
+}
+
+.features figure:hover .lancer_test{
+	opacity:1;
+
+	padding-top: 40px;
+	padding-left: 4px;
+	padding-right: 10px;
+	
+	width: 150px;
+
+	font-size: 26px;
+	transition-duration: 0.5s;
+}
+
+.features figure:hover p{
+	opacity:0;
+	font-size: 110px;
+	transition-duration: 0.3s;
+}
+
+
+.features figure:hover figcaption{
+	font-size: 28px;
+	padding-left: 15px;
+	transition-duration: 0.5s;
+
+}
+
+.features figure figcaption{
+	position:absolute;
+    color:black;
+	font-family: Helvetica;
+	font-size: 22px;
+	transition-duration: 0.5s;
+
+}
+
+#temperature{
+	margin-top: 15px;
+	margin-left: 50px;
+}
+#audition{
+	margin-top: 15px;
+	margin-left: 65px;
+}
+#coeur{
+	margin-top: 15px;
+	margin-left: 75px;
+}
+#vue{
+	margin-top: 15px;
+	margin-left: 80px;
+}
+#étendue{
+	margin-top: 15px;
+	margin-left: 45px;
+}
+
+
+.features figure p{
+	position:absolute;
+    color: #ff9100;
+	font-family: Helvetica, sans-serif;
+	font-size: 90px;
+	opacity: 1;
+	transition-duration: 0.3s;
+	overflow-x: auto;
+}
+
+#temperature1{
+	margin-top: 95px;
+	margin-left: 15px;
+}
+#audition1{
+	margin-top: 95px;
+	margin-left: 28px;
+}
+#coeur1{
+	margin-top: 95px;
+	margin-left: 20px;
+}
+#vue1{
+	margin-top: 95px;
+	margin-left: 18px;
+}
+#étendue1{
+	margin-top: 95px;
+	margin-left: 35px;
+}
+.features figure img{
+    width: 200px;  
+	box-shadow: rgb(128, 128, 128) 0 0 20px;
+}
+
+.unite{
+	font-size: 25px;
+	color: black;
+}

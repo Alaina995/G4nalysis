@@ -2,7 +2,7 @@
 	<head>
 		<title>Supprimer le compte</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="supprimer_le_compte.css"/>
+		<link rel="stylesheet" href="invite_accueil.css"/>
 		<?php session_start();?>
 	</head>
 
@@ -13,7 +13,7 @@
     		<li>
     			<a href="Page 2.html">
 	    			<div class="ligne">
-	    				<img src="../Invite/invite_page_accueil.php" />
+	    				<img src="../Accueil/vraie_page_accueil.php" />
 	    				Accueil
 	    			</div>
 	    		</a>
@@ -29,7 +29,7 @@
     		<li class="active">
     			<a href="Page 2.html">
 	    			<div class="ligne">
-	    				<img class="link" src="Experiment_Results-512.png" alt="Profile picture" />
+	    				<img class="link" src="../Invite/invite_dashboard.php" alt="Profile picture" />
 	    				Tests
 	    			</div>
 	    		</a>

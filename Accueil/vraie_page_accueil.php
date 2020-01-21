@@ -12,7 +12,7 @@
             <li><img  id="nav_menu_bar" src="Menu_Bar-512.png"/></li>
     		<li><a id="nav_connection" href="../Se_connecter/index.php">Se connecter</a></li>
             <li><a id="nav_inscription" href="../Inscription/Inscription.php">S'inscrire</a></li>
-            <li><a id="nav_invite" href="Page 2.html">Invité</a></li>
+            <li><a id="nav_invite" href="../Invite/invite_dashboard.php">Invité</a></li>
     		
     		
         </ul>
