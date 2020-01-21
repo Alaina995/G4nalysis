@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Supprimer le compte</title>
+		<title>Invite_Accueil</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="invite_accueil.css"/>
 		<?php session_start();?>
@@ -21,7 +21,7 @@
     		<li>
     			<a href="Page 2.html">
 	    			<div class="ligne">
-	    				<img class="link" src="../Invite/invite_dashboard.php" alt="Profile picture" />
+	    				<img class="link" src="../Accueil/vraie_page_accueil.php" alt="Profile picture" />
 	    				Démarer un test
 	    			</div>
 	    		</a>
@@ -53,7 +53,7 @@
             <li><a id="nav_deconnexion" href="Page 2.html">Créer un compte</a></li>
             <li><img  id="nav_menu_bar" src="Menu_Bar-512.png"/></li>
             <li id="bienvenue"><p>Bienvenue !</p></li>
-    		<li id="logo_li"><img  id="nav_logo" src="G4analysis.png"/></li>
+    		<li><a href="../Accueil/vraie_page_accueil.php" id="logo_li"><img  id="nav_logo" src="G4analysis.png"/><a/></li>
     		
         </ul>
 

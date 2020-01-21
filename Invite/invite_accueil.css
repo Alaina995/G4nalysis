@@ -117,12 +117,6 @@ li.nav_bar{
 	color: white;
 }
 
-@font-face
-{
-	font-family: 'HelveticaNeue';
-	src: url('HelveticaNeue Thin.ttf') format('truetype');
-}
-
 
 
 .linear-gradient {
@@ -134,21 +128,6 @@ li.nav_bar{
   left:40px;
 }
 
-
-@font-face
-{
-	font-family: 'HelveticaNeue Thin';
-	src: url('HelveticaNeue Thin.ttf') format('truetype');
-}
-/* 
-@media screen and (max-width: 350px) {
-	#nav_deconnexion{
-		display: none;
-	}
-	#nav_menu_bar{
-		display: block;
-	}
-} */
 
 @media screen and (max-width: 650px) {
 	#bienvenue p{
