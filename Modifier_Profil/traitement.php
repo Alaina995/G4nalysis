@@ -135,6 +135,7 @@
           $_SESSION['donnesUser'] = $donnesUser;
           $_SESSION['prenomUser'] = $donnesUser['prenom'];
 
+          header("Location:modifier_profil_1.php");
 
       } else {
           echo "Error updating record: " . $conn->error;
