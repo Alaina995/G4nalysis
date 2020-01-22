@@ -18,7 +18,11 @@ body
     background-size: 100%;
 }
 
-a.{
+*{
+	font-family: 'HelveticaNeue';
+}
+
+a{
 	text-decoration: none;
 }
 

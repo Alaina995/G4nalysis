@@ -16,7 +16,7 @@
     		
     		
         </ul>
-        
+    <div class="parallax">      
         <img  id="nav_logo" src="G4analysis.png"/>
 
 
@@ -33,35 +33,35 @@
    
 
 
-   
-  
-  <h5 id="mon_ancre"></h5>
-  <img id="boitier" src="boitier.jpg" class="picture-left">
- 
-  <div class="paragraph-right">
+<div class="parallax">
+  <div class="suitePage">
+      <h5 id="mon_ancre"></h5>
+      <img id="boitier" src="boitier.jpg" class="picture-left">
     
-    <p> Le boitier vous permet de mesurer votre température corporelle de manière précise.</p>
-    
-  </div>
-  
+      <div class="paragraph-right">
+        
+        <p> Le boitier vous permet de mesurer votre température corporelle de manière précise.</p>
+        
+      </div>
+      
 
-  <img id="boitier" src="boitier.jpg" class="picture-right">
-  <div class="paragraph-left">
-    <p> Le boitier vous permet de mesurer votre fréquence cardiaque de manière précise.</p>
-  </div>
+      <img id="boitier" src="boitier.jpg" class="picture-right">
+      <div class="paragraph-left">
+        <p> Le boitier vous permet de mesurer votre fréquence cardiaque de manière précise.</p>
+      </div>
 
-  <img id="boitier" src="boitier.jpg" class="picture-left1">
-  <div class="paragraph-right1">
-    <p> Le boitier vous permet de tester votre qualité de reconnaissance de tonalité de manière précise.</p>
-  </div>
+      <img id="boitier" src="boitier.jpg" class="picture-left1">
+      <div class="paragraph-right1">
+        <p> Le boitier vous permet de tester votre qualité de reconnaissance de tonalité de manière précise.</p>
+      </div>
 
-  <img id="boitier" src="boitier.jpg" class="picture-right1">
-  <div class="paragraph-left1">
-    <p> Le boitier vous permet de tester votre étendue auditive 
- de manière précise.</p>
-  </div>
-
-
+      <img id="boitier" src="boitier.jpg" class="picture-right1">
+      <div class="paragraph-left1">
+        <p> Le boitier vous permet de tester votre étendue auditive 
+    de manière précise.</p>
+      </div>
+</div>
+</div>
 
     
       <!--<button type="button" onclick="toggle_text();">En savoir plus</button>

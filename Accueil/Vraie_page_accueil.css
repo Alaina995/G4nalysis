@@ -106,13 +106,33 @@
       padding-left: 40px;
        }
 
-body { 
-    background-image: url("image_de_fond.png");
-    background-repeat: no-repeat;
-       background-size: 100%; 
-       overflow-y: scroll;
-       scroll-behavior: smooth  ;
+body,html { 
+    height: 100%;
+    scroll-behavior: smooth  ;
+    padding : 0px;
+    margin: 0px;
     }
+
+.parallax {
+    /* The image used */
+    background-image: url('image_de_fond.png');
+    
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.suitePage{
+    background-color: rgba(255, 255, 255, 0.945);
+    width : 80%;
+    margin-left: 10%;
+    
+}
 
 #background2 { background-image: url("Waves.png");
                 }  
@@ -243,13 +263,13 @@ span { font-size: 20px;
     width: 20%;
     height: auto;
     margin : auto;
-    padding-top: 400px;
+    padding-top: 50px;
     padding-left: 80px;
 }
  
  
 .paragraph-right { float: middle;
-    padding-top: 550px;
+    padding-top: 150px;
     text-align: center;
     font-family: 'HelveticaNeue Thin';
     color: black;
