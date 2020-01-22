@@ -12,6 +12,12 @@
     left : 0px;
 }
 
+body{
+    background-image: url('IMG_7001.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
 #barre {
     width : 70%;
       
@@ -54,9 +60,16 @@ h1{
     font-size : 40px; ;
     text-align : center ; 
     font-weight : lighter;
-    margin-left: 10%;
+    margin-left:0px;
     margin-top: 20px;
+    margin-bottom: 0px;
     
+
+}
+
+#care{
+    width : 40%;
+    height : 40%;
 
 }
 
@@ -73,6 +86,8 @@ nav {
     width: 400px;
     margin: auto;
     margin-top: 100px;
+    background-color: rgb(248, 247, 247);
+    box-shadow: black 0 0 30px;
 }
 
 input{

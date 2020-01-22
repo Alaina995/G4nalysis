@@ -14,6 +14,7 @@
 
         <nav>
             <p class = "titre">Nous contacter</p>
+            <img  id="care" src="4Care.png"/>
             <img  id="barre" src ="Barre_separation.png"/>
 
             <form >

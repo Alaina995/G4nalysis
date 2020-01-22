@@ -121,7 +121,10 @@
           echo "Utilisateur bien créé";
         echo"Vous avez bien rempli le formulaire!";
       }
+
+     
     session_destroy();
+     header("Location:../Se_connecter/index.php");
     }
 ?>
 
