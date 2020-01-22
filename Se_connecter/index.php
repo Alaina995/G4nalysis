@@ -11,10 +11,10 @@
         
         <a id = "retouracc" href="../Accueil/vraie_page_accueil.php"><< Retour à l'accueil
         </a>
-        <p class = "titre">  Connexion</p>
-
+        
+<p class = "titre">  Connexion</p>
         <nav>
-
+        
             <img  id="care" src="4Care.png"/>
             <img  id="barre" src ="Barre_separation.png"/>
 

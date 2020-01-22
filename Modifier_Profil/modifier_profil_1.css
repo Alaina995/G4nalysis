@@ -30,8 +30,13 @@
 body
 {
     background-image: url('IMG_7019 - copie 5.jpg');
-    background-position:  center;
-    background-size: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {

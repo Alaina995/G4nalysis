@@ -13,6 +13,12 @@
     left : 0px;
 }
 
+body{
+    background-image: url('IMG_6986.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
 #care{
     width : 40%;
     height : 40%;
@@ -26,12 +32,14 @@
     
 }
 
-#logo {
-    width : auto;
+#logo {   
+     width : auto;
     height : 60px;
     float : right ; 
-    
-
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: rgb(70, 70, 70) 0 0 20px;
+    border-radius: 4px;
+    padding: 7px;
 }
 
 #retouracc{
@@ -53,12 +61,14 @@
 
 .titre{
     font-family : HelveticaNeue; 
-    font-size : 40px; ;
+    font-size : 6em; ;
     text-align : center ; 
     font-weight : lighter;
-    margin-left: 10%;
-    margin-top: 20px;
-    
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: white;
 
 }
 nav {
@@ -73,8 +83,9 @@ nav {
     border-width : thin ;
     width: 400px;
     margin: auto;
-    margin-top: 100px;
-    box-shadow: rgb(128, 128, 128) 0 0 20px;
+    margin-top: 20px;
+    box-shadow: rgb(0, 0, 0) 0 0 30px;
+    background-color: rgb(250, 250, 250);
 }
 
 input{

@@ -77,9 +77,9 @@
     </ul>    
 </nav>      
 
-
+<?php require('../Footer/footer.php'); ?>
     </body>
-      <?php require('../Footer/footer.php'); ?>
+      
 </html>
 
 

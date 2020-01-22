@@ -30,7 +30,7 @@
 
 
    <a id="ancre" href="#mon_ancre">En savoir plus</a>
-   
+   </div>
 
 
 <div class="parallax">
@@ -60,7 +60,7 @@
         <p> Le boitier vous permet de tester votre étendue auditive 
     de manière précise.</p>
       </div>
-</div>
+    </div>
 </div>
 
     
@@ -115,9 +115,9 @@
   
 
  
-  
+    <?php require('../Footer/footer.php'); ?>
 
     </body>
-<?php require('../Footer/footer.php'); ?>
+
     <script src="scroll.js"></script>
 </html>

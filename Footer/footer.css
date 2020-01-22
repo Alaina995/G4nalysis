@@ -3,20 +3,29 @@
     src: url('../HelveticaNeueThin.ttf') format('truetype');
 }
 
-body {
+
+html, body {
+	height: 100%;
+    margin: 0px;
+     padding: 0px;
+    
     overflow-x: hidden;
 
 }
-
-.footer{
+body {
+    display : table;
+    width: 100%;
+}
+footer{
     /* width: 98.5%; */
     width: 100%;
-    bottom:0px;
+    bottom: 0px;
     left: 0px;
-    background-color: white;
+    background-color: transparent;
     list-style-type: none;
-    display: inline;
     margin: 0px;
+    padding: 0px;
+    display: table-row;
 }
 
 .footer li{
